@@ -1,0 +1,459 @@
+{
+  "marcas": [
+    {
+      "id": "aurok",
+      "nome": "Aurok",
+      "emoji": "🔫",
+      "categoria": "Acessórios Táticos",
+      "tipo": "Marca Própria Pavei",
+      "descricao": "Acessórios táticos premium para tiro esportivo e treinamento",
+      "linhas": [
+        {
+          "linha_id": "abafadores",
+          "linha": "Abafadores",
+          "destaque": "Eletrônicos e passivos premium",
+          "preco_medio": "R$ 176 - R$ 880"
+        },
+        {
+          "linha_id": "coldres",
+          "linha": "Coldres",
+          "destaque": "Kydex para principais pistolas",
+          "preco_medio": "R$ 160 - R$ 400"
+        },
+        {
+          "linha_id": "porta-carregadores",
+          "linha": "Porta-Carregadores",
+          "destaque": "Kydex e polímero",
+          "preco_medio": "R$ 85 - R$ 138"
+        },
+        {
+          "linha_id": "miras",
+          "linha": "Miras de Fibra Óptica",
+          "destaque": "Para pistolas Taurus",
+          "preco_medio": "R$ 249 - R$ 398"
+        },
+        {
+          "linha_id": "sacos-estanques",
+          "linha": "Sacos Estanques",
+          "destaque": "Proteção para eletrônicos",
+          "preco_medio": "R$ 45 - R$ 120"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "MÉDIA-ALTA",
+        "norte": "MÉDIA",
+        "nordeste": "BAIXA"
+      },
+      "oportunidades": [
+        "IPSC e Tiro Prático (Mar-Nov)",
+        "Treinamento Tático (Ano todo)",
+        "CBTE - Tiro Olímpico (Fev-Nov)"
+      ]
+    },
+    {
+      "id": "olight",
+      "nome": "Olight",
+      "emoji": "💡",
+      "categoria": "Lanternas Táticas",
+      "tipo": "Marca Premium",
+      "descricao": "Lanternas de alta performance para tiro, outdoor e tático",
+      "linhas": [
+        {
+          "linha_id": "seeker",
+          "linha": "Seeker",
+          "destaque": "Lanternas de longo alcance (2000+ lúmens)",
+          "preco_medio": "R$ 400 - R$ 800"
+        },
+        {
+          "linha_id": "warrior",
+          "linha": "Warrior",
+          "destaque": "Lanternas táticas compactas",
+          "preco_medio": "R$ 250 - R$ 500"
+        },
+        {
+          "linha_id": "baldr",
+          "linha": "Baldr",
+          "destaque": "Lanternas de cintura para pistolas",
+          "preco_medio": "R$ 300 - R$ 600"
+        },
+        {
+          "linha_id": "perun",
+          "linha": "Perun",
+          "destaque": "Lanternas de cabeça",
+          "preco_medio": "R$ 200 - R$ 400"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "MÉDIA-ALTA",
+        "norte": "MUITO ALTA",
+        "nordeste": "MÉDIA"
+      },
+      "oportunidades": [
+        "Pesca Amazônica (Jun-Nov)",
+        "Camping de Seca (Mai-Out)",
+        "Treinamento Tático (Ano todo)",
+        "Caça de Javali (Mai-Set)"
+      ]
+    },
+    {
+      "id": "hawapi",
+      "nome": "Hawapi",
+      "emoji": "⛺",
+      "categoria": "Camping e Outdoor",
+      "tipo": "Marca Premium",
+      "descricao": "Barracas, colchões e equipamentos de camping de alta qualidade",
+      "linhas": [
+        {
+          "linha_id": "barracas",
+          "linha": "Barracas",
+          "destaque": "Moray, Wasi, Yunka, Ayllu",
+          "preco_medio": "R$ 800 - R$ 2.500"
+        },
+        {
+          "linha_id": "colchoes",
+          "linha": "Colchões Infláveis",
+          "destaque": "Reforçados e compactos",
+          "preco_medio": "R$ 300 - R$ 800"
+        },
+        {
+          "linha_id": "sacos-dormir",
+          "linha": "Sacos de Dormir",
+          "destaque": "Allpa (leve) e Qiwa (térmico)",
+          "preco_medio": "R$ 400 - R$ 1.200"
+        },
+        {
+          "linha_id": "cadeiras",
+          "linha": "Cadeiras Portáteis",
+          "destaque": "Atacama, Kaypi, Picchu",
+          "preco_medio": "R$ 200 - R$ 500"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "ALTA",
+        "centro-oeste": "MUITO ALTA",
+        "norte": "MUITO ALTA",
+        "nordeste": "MUITO ALTA"
+      },
+      "oportunidades": [
+        "Pesca no Litoral (Dez-Mar)",
+        "Camping de Verão (Dez-Mar)",
+        "Pesca Amazônica (Jun-Nov)",
+        "Camping de Seca (Mai-Out)",
+        "Caça de Javali (Mai-Set)"
+      ]
+    },
+    {
+      "id": "gamo",
+      "nome": "Gamo",
+      "emoji": "🎯",
+      "categoria": "Ar Comprimido",
+      "tipo": "Distribuidor Exclusivo Pavei",
+      "descricao": "Carabinas PCP, pistolas CO₂ e chumbinhos de precisão",
+      "linhas": [
+        {
+          "linha_id": "carabinas-pcp",
+          "linha": "Carabinas PCP",
+          "destaque": "Big Cat, CFX Royal, Whisper Fusion",
+          "preco_medio": "R$ 2.000 - R$ 4.500"
+        },
+        {
+          "linha_id": "pistolas-co2",
+          "linha": "Pistolas CO₂",
+          "destaque": "PT-80, PT-85 Blowback",
+          "preco_medio": "R$ 800 - R$ 1.500"
+        },
+        {
+          "linha_id": "chumbinhos",
+          "linha": "Chumbinhos",
+          "destaque": "Match, Pro Hunter, Lethal",
+          "preco_medio": "R$ 30 - R$ 80"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MÉDIA-ALTA",
+        "sudeste": "MÉDIA-ALTA",
+        "centro-oeste": "MÉDIA",
+        "norte": "BAIXA-MÉDIA",
+        "nordeste": "BAIXA-MÉDIA"
+      },
+      "oportunidades": [
+        "Tiro de Pressão (Ano todo)",
+        "Competições de Ar Comprimido (Fev-Nov)",
+        "Iniciantes em tiro (Ano todo)"
+      ]
+    },
+    {
+      "id": "taurus",
+      "nome": "Taurus",
+      "emoji": "🔫",
+      "categoria": "Armas de Fogo",
+      "tipo": "Distribuidor",
+      "descricao": "Pistolas para IPSC, treinamento tático e defesa pessoal",
+      "linhas": [
+        {
+          "linha_id": "g2c-g3c",
+          "linha": "G2C / G3C",
+          "destaque": "Pistolas compactas 9mm/.40",
+          "preco_medio": "R$ 1.500 - R$ 2.000"
+        },
+        {
+          "linha_id": "th-series",
+          "linha": "TH Series",
+          "destaque": "TH9, TH40, TH380",
+          "preco_medio": "R$ 1.800 - R$ 2.500"
+        },
+        {
+          "linha_id": "tx22",
+          "linha": "TX22",
+          "destaque": "Pistola .22 LR",
+          "preco_medio": "R$ 1.200 - R$ 1.800"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "ALTA",
+        "norte": "MÉDIA",
+        "nordeste": "BAIXA"
+      },
+      "oportunidades": [
+        "IPSC (Mar-Nov)",
+        "Treinamento Tático (Ano todo)",
+        "Defesa Pessoal (Ano todo)"
+      ]
+    },
+    {
+      "id": "cbc",
+      "nome": "CBC",
+      "emoji": "🔴",
+      "categoria": "Munições",
+      "tipo": "Distribuidor",
+      "descricao": "Cartuchos para tiro esportivo, treinamento e caça",
+      "linhas": [
+        {
+          "linha_id": "22-lr",
+          "linha": ".22 LR",
+          "destaque": "Target, Precision, Hunter",
+          "preco_medio": "R$ 0,80 - R$ 1,50"
+        },
+        {
+          "linha_id": "9mm",
+          "linha": "9mm Luger",
+          "destaque": "ETOG, EXPO, Treino",
+          "preco_medio": "R$ 1,20 - R$ 2,00"
+        },
+        {
+          "linha_id": "380-auto",
+          "linha": ".380 Auto",
+          "destaque": "ETOG, EXPO",
+          "preco_medio": "R$ 1,50 - R$ 2,50"
+        },
+        {
+          "linha_id": "38-spl",
+          "linha": ".38 SPL",
+          "destaque": "CHOG 158GR",
+          "preco_medio": "R$ 2,00 - R$ 3,00"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "ALTA",
+        "norte": "MÉDIA",
+        "nordeste": "MÉDIA"
+      },
+      "oportunidades": [
+        "IPSC (Mar-Nov)",
+        "Treinamento Tático (Ano todo)",
+        "Tiro de Pressão (Ano todo)"
+      ]
+    },
+    {
+      "id": "hatsan",
+      "nome": "Hatsan",
+      "emoji": "🦌",
+      "categoria": "Armas de Caça",
+      "tipo": "Distribuidor",
+      "descricao": "Espingardas e rifles para caça esportiva",
+      "linhas": [
+        {
+          "linha_id": "espingardas",
+          "linha": "Espingardas",
+          "destaque": "Calibres 12, 20, 28",
+          "preco_medio": "R$ 3.000 - R$ 6.000"
+        },
+        {
+          "linha_id": "rifles",
+          "linha": "Rifles",
+          "destaque": "Calibres variados",
+          "preco_medio": "R$ 4.000 - R$ 8.000"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "ALTA",
+        "centro-oeste": "MÉDIA",
+        "norte": "MÉDIA",
+        "nordeste": "BAIXA"
+      },
+      "oportunidades": [
+        "Caça de Javali (Mai-Set)",
+        "Caça Esportiva (Mai-Out)",
+        "Pesca Amazônica (Jun-Nov)"
+      ]
+    },
+    {
+      "id": "browning",
+      "nome": "Browning",
+      "emoji": "🎯",
+      "categoria": "Armas e Acessórios",
+      "tipo": "Distribuidor",
+      "descricao": "Espingardas, rifles e acessórios para caça e tiro esportivo",
+      "linhas": [
+        {
+          "linha_id": "espingardas",
+          "linha": "Espingardas",
+          "destaque": "Trap, Skeet, Caça",
+          "preco_medio": "R$ 5.000 - R$ 10.000"
+        },
+        {
+          "linha_id": "rifles",
+          "linha": "Rifles",
+          "destaque": "Calibres variados",
+          "preco_medio": "R$ 6.000 - R$ 12.000"
+        },
+        {
+          "linha_id": "acessorios",
+          "linha": "Acessórios",
+          "destaque": "Óculos, coletes, facas, cases",
+          "preco_medio": "R$ 100 - R$ 2.000"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "MÉDIA-ALTA",
+        "norte": "MÉDIA",
+        "nordeste": "BAIXA"
+      },
+      "oportunidades": [
+        "CBTE - Tiro Olímpico (Fev-Nov)",
+        "Caça de Javali (Mai-Set)",
+        "Caça Esportiva (Mai-Out)"
+      ]
+    },
+    {
+      "id": "muela",
+      "nome": "Muela",
+      "emoji": "🔪",
+      "categoria": "Facas e Multitools",
+      "tipo": "Distribuidor",
+      "descricao": "Facas táticas e de caça de alta qualidade",
+      "linhas": [
+        {
+          "linha_id": "facas-taticas",
+          "linha": "Facas Táticas",
+          "destaque": "Evisceração, combate, utilidade",
+          "preco_medio": "R$ 200 - R$ 800"
+        },
+        {
+          "linha_id": "facas-caca",
+          "linha": "Facas de Caça",
+          "destaque": "Prohunter, Long Haul",
+          "preco_medio": "R$ 300 - R$ 1.000"
+        },
+        {
+          "linha_id": "multitools",
+          "linha": "Multitools",
+          "destaque": "Portáteis e compactos",
+          "preco_medio": "R$ 150 - R$ 600"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "ALTA",
+        "centro-oeste": "MÉDIA-ALTA",
+        "norte": "MUITO ALTA",
+        "nordeste": "MÉDIA"
+      },
+      "oportunidades": [
+        "Caça de Javali (Mai-Set)",
+        "Pesca Amazônica (Jun-Nov)",
+        "Camping (Ano todo)"
+      ]
+    },
+    {
+      "id": "thermos",
+      "nome": "Thermos",
+      "emoji": "☕",
+      "categoria": "Equipamentos Térmicos",
+      "tipo": "Distribuidor",
+      "descricao": "Garrafas térmicas e copos para outdoor",
+      "linhas": [
+        {
+          "linha_id": "garrafas",
+          "linha": "Garrafas Térmicas",
+          "destaque": "Makalu, King, Stainless",
+          "preco_medio": "R$ 150 - R$ 400"
+        },
+        {
+          "linha_id": "copos",
+          "linha": "Copos Térmicos",
+          "destaque": "Portáteis e compactos",
+          "preco_medio": "R$ 50 - R$ 150"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MÉDIA-ALTA",
+        "sudeste": "MÉDIA",
+        "centro-oeste": "MÉDIA",
+        "norte": "MÉDIA-ALTA",
+        "nordeste": "BAIXA"
+      },
+      "oportunidades": [
+        "Camping de Inverno (Jun-Ago)",
+        "Pesca no Litoral (Dez-Mar)",
+        "Camping de Seca (Mai-Out)"
+      ]
+    },
+    {
+      "id": "vectoroptics",
+      "nome": "VectorOptics",
+      "emoji": "🔭",
+      "categoria": "Ópticas e Lunetas",
+      "tipo": "Distribuidor",
+      "descricao": "Lunetas, miras e acessórios ópticos para tiro de precisão",
+      "linhas": [
+        {
+          "linha_id": "lunetas",
+          "linha": "Lunetas",
+          "destaque": "Forester, Sentinel, Hugo",
+          "preco_medio": "R$ 800 - R$ 2.500"
+        },
+        {
+          "linha_id": "red-dots",
+          "linha": "Red Dots",
+          "destaque": "Compact, Compact Pro",
+          "preco_medio": "R$ 600 - R$ 1.500"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "MÉDIA",
+        "norte": "BAIXA",
+        "nordeste": "BAIXA"
+      },
+      "oportunidades": [
+        "Tiro de Pressão (Ano todo)",
+        "IPSC com Red Dot (Mar-Nov)",
+        "Caça Esportiva (Mai-Out)"
+      ]
+    }
+  ]
+}
