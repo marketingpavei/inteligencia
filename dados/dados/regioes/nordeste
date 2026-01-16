@@ -1,0 +1,648 @@
+{
+  "regiao": "Nordeste",
+  "estados": ["Bahia", "Ceará", "Pernambuco", "Rio Grande do Norte", "Paraíba", "Alagoas", "Sergipe", "Maranhão", "Piauí"],
+  "emoji": "🏖️",
+  "perfil": {
+    "descricao": "A região Nordeste possui perfil sazonal concentrado no verão (dezembro a março) para atividades de pesca no litoral e camping de praia. O mercado de tiro esportivo/tático é menor em volume comparado a Sul e Sudeste, mas crescente em capitais como Salvador, Fortaleza, Recife, Natal e João Pessoa. O clima quente durante a maior parte do ano favorece atividades de outdoor leves, com foco em lazer familiar e turismo. A demanda por equipamentos é impulsionada por eventos sazonais, mas o volume absoluto é menor devido à menor densidade de clubes de tiro e CACs. Há potencial de crescimento no tiro de pressão em clubes urbanos.",
+    "clima": "Tropical quente com verão bem definido",
+    "caracteristicas_principais": [
+      "Pesca no litoral (dezembro-março)",
+      "Camping de praia e verão",
+      "Tiro esportivo/tático em capitais",
+      "Tiro de pressão em crescimento",
+      "Clima quente durante todo o ano",
+      "Foco em lazer familiar e turismo",
+      "Menor densidade de clubes de tiro"
+    ]
+  },
+  "atividades": [
+    {
+      "id": "pesca-litoral",
+      "nome": "Pesca no Litoral",
+      "emoji": "🎣",
+      "demanda": "ALTA",
+      "descricao": "Entre dezembro e março, com pico absoluto em janeiro-fevereiro, a pesca no litoral nordestino atinge seu momento de maior intensidade. Destinos incluem litoral da Bahia (Ilhéus, Porto Seguro, Caravelas), Ceará (Jericoacoara, Canoa Quebrada), Rio Grande do Norte (Natal, Pipa), Pernambuco (Porto de Galinhas, Fernando de Noronha), Alagoas (Maragogi), Sergipe (Aracaju).",
+      "periodo_pico": "Jan-Fev",
+      "periodo_ativo": "Dez-Mar",
+      "volume": "Alto",
+      "destinos_principais": [
+        "Ilhéus (BA)",
+        "Porto Seguro (BA)",
+        "Caravelas (BA)",
+        "Jericoacoara (CE)",
+        "Canoa Quebrada (CE)",
+        "Natal (RN)",
+        "Pipa (RN)",
+        "Porto de Galinhas (PE)",
+        "Fernando de Noronha (PE)",
+        "Maragogi (AL)",
+        "Aracaju (SE)"
+      ],
+      "produtos_relacionados": [
+        "Barracas leves com proteção UV (Hawapi Wasi, Yunka)",
+        "Colchões infláveis compactos (Hawapi)",
+        "Sacos de dormir leves (Hawapi Allpa, 15-20°C)",
+        "Lanternas resistentes à água (Olight Baton 3 Pro Max, Seeker 2 Pro)",
+        "Lanternas de cabeça (Olight Perun Mini Kit)",
+        "Cadeiras e mesas portáteis leves (Hawapi Picchu)",
+        "Power banks alta capacidade",
+        "Sacos estanques (Aurok 10L-20L)",
+        "Facas e multitools (Muela, Ganzo)",
+        "Repelentes e proteção contra insetos",
+        "Roupas de proteção UV"
+      ],
+      "microrregioes": [
+        {
+          "nome": "Litoral BA",
+          "cidades": ["Ilhéus", "Porto Seguro", "Caravelas"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Litoral CE",
+          "cidades": ["Jericoacoara", "Canoa Quebrada"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Litoral RN",
+          "cidades": ["Natal", "Pipa"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Litoral PE",
+          "cidades": ["Porto de Galinhas", "Fernando de Noronha"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Litoral AL",
+          "cidades": ["Maragogi"],
+          "intensidade": "Alta"
+        },
+        {
+          "nome": "Litoral SE",
+          "cidades": ["Aracaju"],
+          "intensidade": "Alta"
+        }
+      ]
+    },
+    {
+      "id": "camping-verao",
+      "nome": "Camping de Verão",
+      "emoji": "⛺",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "Coincide com a pesca no litoral (dezembro-março, pico janeiro-fevereiro). Demanda MÉDIA-ALTA para equipamentos leves e compactos, focando em famílias.",
+      "periodo_pico": "Jan-Fev",
+      "periodo_ativo": "Dez-Mar",
+      "volume": "Médio-Alto",
+      "locais": [
+        "Praias da Bahia",
+        "Praias do Ceará",
+        "Praias do Rio Grande do Norte",
+        "Praias de Pernambuco",
+        "Praias de Alagoas",
+        "Praias de Sergipe"
+      ],
+      "produtos_relacionados": [
+        "Barracas leves (Hawapi Wasi, Yunka, Ayllu)",
+        "Colchões infláveis",
+        "Sacos de dormir leves (Hawapi Allpa)",
+        "Lanternas ambiente (Olight Baton, S1R)",
+        "Lanternas de cabeça",
+        "Cadeiras portáteis leves (Hawapi Picchu)",
+        "Power banks",
+        "Bolsas impermeáveis",
+        "Facas e multitools",
+        "Roupas leves e de proteção UV"
+      ]
+    },
+    {
+      "id": "tiro-pressao-pcp",
+      "nome": "Tiro de Pressão e PCP",
+      "emoji": "💨",
+      "demanda": "BAIXA-MÉDIA",
+      "descricao": "Presente principalmente em Salvador, Fortaleza, Recife e Natal, com demanda BAIXA-MÉDIA. Atividade constante, mas volume baixo devido à menor quantidade de clubes.",
+      "periodo_pico": "Ano todo",
+      "periodo_ativo": "Ano todo",
+      "volume": "Baixo-Médio",
+      "cidades_principais": ["Salvador", "Fortaleza", "Recife", "Natal"],
+      "produtos_relacionados": [
+        "Carabinas Gamo (Big Cat, CFX Royal, Whisper Fusion)",
+        "Pistolas CO₂ (Gamo PT-80, PT-85 Blowback)",
+        "Chumbinhos de precisão (Gamo Match Classic, Hollow Point)",
+        "Bombas manuais de três estágios (Aurok)",
+        "Cilindros CO₂ (Aurok)",
+        "Lunetas VectorOptics (Forester 3-15x50, Hugo 4-16x44)",
+        "Alvos de papel e metálicos (Aurok)",
+        "Coletores de chumbinhos (Aurok)",
+        "Kits de limpeza (Aurok)"
+      ]
+    },
+    {
+      "id": "ipsc-tiro-pratico",
+      "nome": "IPSC e Tiro Prático",
+      "emoji": "🎯",
+      "demanda": "BAIXA",
+      "descricao": "Atividade emergente em capitais como Recife e Salvador, com calendário de março a novembro (picos em abril-junho e agosto-outubro). Demanda BAIXA com potencial de crescimento.",
+      "periodo_pico": "Abr-Jun e Ago-Out",
+      "periodo_ativo": "Mar-Nov",
+      "volume": "Baixo",
+      "cidades_principais": ["Recife", "Salvador", "Fortaleza"],
+      "produtos_relacionados": [
+        "Pistolas Taurus (G2C, G3C)",
+        "Munições CBC (9mm, .40 S&W)",
+        "Coldres Aurok Kydex",
+        "Porta-carregadores Aurok",
+        "Abafadores Aurok Whisper",
+        "Lanternas táticas Olight (Baldr Mini, Baldr Pro)",
+        "Óculos de proteção (Aurok)",
+        "Cases de transporte (Aurok)",
+        "Miras de fibra óptica"
+      ]
+    },
+    {
+      "id": "cbte-tiro-olimpico",
+      "nome": "CBTE - Tiro Esportivo Olímpico",
+      "emoji": "🏅",
+      "demanda": "BAIXA",
+      "descricao": "Atividade limitada a capitais (Salvador, Recife, Fortaleza), com temporada de fevereiro a novembro (picos março-abril e agosto-outubro). Demanda BAIXA.",
+      "periodo_pico": "Mar-Abr e Ago-Out",
+      "periodo_ativo": "Fev-Nov",
+      "volume": "Baixo",
+      "cidades_principais": ["Salvador", "Recife", "Fortaleza"],
+      "modalidades": ["Trap", "Skeet"],
+      "produtos_relacionados": [
+        "Espingardas Browning e Guerini (trap/skeet)",
+        "Munições CBC regulamentares Cal.12",
+        "Coletes de tiro",
+        "Óculos de proteção certificados",
+        "Abafadores Aurok Whisper Premium",
+        "Alvos oficiais (Aurok)"
+      ]
+    },
+    {
+      "id": "treinamento-tatico",
+      "nome": "Treinamento Tático",
+      "emoji": "🔫",
+      "demanda": "BAIXA",
+      "descricao": "Ano todo, com picos em março-abril e outubro-novembro. Demanda BAIXA para pistolas, munições e acessórios básicos.",
+      "periodo_pico": "Mar-Abr e Out-Nov",
+      "periodo_ativo": "Ano todo",
+      "volume": "Baixo",
+      "cidades_principais": ["Salvador", "Fortaleza", "Recife", "Natal"],
+      "produtos_relacionados": [
+        "Pistolas Taurus (G2C como primeira arma)",
+        "Munições CBC (9mm)",
+        "Abafadores Aurok Whisper",
+        "Coldres Aurok Kydex",
+        "Kits de limpeza (Aurok)",
+        "Lanternas Olight Baldr Mini",
+        "Cases de transporte"
+      ]
+    }
+  ],
+  "calendario_anual": {
+    "janeiro": {
+      "mes": "Janeiro",
+      "numero": 1,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-litoral",
+          "nome": "Pesca no Litoral",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "camping-verao",
+          "nome": "Camping de Verão",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        }
+      ],
+      "oportunidades": [
+        "Pesca no litoral (pico absoluto)",
+        "Camping de verão (pico absoluto)",
+        "Barracas leves Hawapi",
+        "Colchões infláveis",
+        "Sacos de dormir leves",
+        "Lanternas Olight resistentes à água",
+        "Sacos estanques Aurok",
+        "Equipamentos de proteção UV"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Aurok"]
+    },
+    "fevereiro": {
+      "mes": "Fevereiro",
+      "numero": 2,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-litoral",
+          "nome": "Pesca no Litoral",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "camping-verao",
+          "nome": "Camping de Verão",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "baixo",
+          "descricao": "Início da temporada"
+        }
+      ],
+      "oportunidades": [
+        "Pesca no litoral (pico final)",
+        "Camping de verão (pico final)",
+        "Equipamentos de outdoor leves"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Aurok"]
+    },
+    "marco": {
+      "mes": "Março",
+      "numero": 3,
+      "demanda_geral": "MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-litoral",
+          "nome": "Pesca no Litoral",
+          "nivel": "baixo",
+          "descricao": "Fim da temporada"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "medio",
+          "descricao": "Etapas estaduais"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "medio",
+          "descricao": "Pico de matrículas"
+        }
+      ],
+      "oportunidades": [
+        "Competições de tiro",
+        "Treinamento tático",
+        "Munições CBC",
+        "Coldres Aurok",
+        "Abafadores eletrônicos"
+      ],
+      "marcas_destaque": ["Taurus", "CBC", "Aurok", "Olight"]
+    },
+    "abril": {
+      "mes": "Abril",
+      "numero": 4,
+      "demanda_geral": "MÉDIA-BAIXA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Etapas estaduais"
+        },
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "medio",
+          "descricao": "Campeonatos"
+        }
+      ],
+      "oportunidades": [
+        "Competições de tiro",
+        "Munições em volume"
+      ],
+      "marcas_destaque": ["CBC", "Aurok", "Taurus"]
+    },
+    "maio": {
+      "mes": "Maio",
+      "numero": 5,
+      "demanda_geral": "BAIXA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "baixo",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "baixo",
+          "descricao": "Atividade constante"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de equipamentos",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Gamo", "Aurok"]
+    },
+    "junho": {
+      "mes": "Junho",
+      "numero": 6,
+      "demanda_geral": "BAIXA",
+      "atividades": [
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "baixo",
+          "descricao": "Atividade constante"
+        }
+      ],
+      "oportunidades": [
+        "Tiro de pressão em clubes urbanos",
+        "Preparação para competições"
+      ],
+      "marcas_destaque": ["Gamo", "VectorOptics", "Aurok"]
+    },
+    "julho": {
+      "mes": "Julho",
+      "numero": 7,
+      "demanda_geral": "BAIXA",
+      "atividades": [
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "baixo",
+          "descricao": "Atividade constante"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "baixo",
+          "descricao": "Férias escolares (volume baixo)"
+        }
+      ],
+      "oportunidades": [
+        "Tiro de pressão",
+        "Treinamento tático"
+      ],
+      "marcas_destaque": ["Gamo", "Aurok", "Taurus"]
+    },
+    "agosto": {
+      "mes": "Agosto",
+      "numero": 8,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Preparação para etapas nacionais"
+        },
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "medio",
+          "descricao": "Campeonatos"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "baixo",
+          "descricao": "Atividade constante"
+        }
+      ],
+      "oportunidades": [
+        "Competições de tiro",
+        "Munições em volume",
+        "Acessórios táticos"
+      ],
+      "marcas_destaque": ["CBC", "Aurok", "Gamo", "VectorOptics"]
+    },
+    "setembro": {
+      "mes": "Setembro",
+      "numero": 9,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Etapas nacionais"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "baixo",
+          "descricao": "Atividade constante"
+        }
+      ],
+      "oportunidades": [
+        "Competições de tiro",
+        "Munições em volume"
+      ],
+      "marcas_destaque": ["CBC", "Aurok", "Gamo"]
+    },
+    "outubro": {
+      "mes": "Outubro",
+      "numero": 10,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Reta final de competições"
+        },
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "medio",
+          "descricao": "Campeonatos nacionais"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "medio",
+          "descricao": "Preparação para fim de ano"
+        }
+      ],
+      "oportunidades": [
+        "Competições de tiro",
+        "Preparação para compras de fim de ano"
+      ],
+      "marcas_destaque": ["CBC", "Aurok", "Taurus"]
+    },
+    "novembro": {
+      "mes": "Novembro",
+      "numero": 11,
+      "demanda_geral": "BAIXA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "baixo",
+          "descricao": "Fechamento da temporada"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de equipamentos",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Aurok", "Olight"]
+    },
+    "dezembro": {
+      "mes": "Dezembro",
+      "numero": 12,
+      "demanda_geral": "MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-litoral",
+          "nome": "Pesca no Litoral",
+          "nivel": "medio",
+          "descricao": "Preparação para temporada de verão"
+        },
+        {
+          "atividade_id": "camping-verao",
+          "nome": "Camping de Verão",
+          "nivel": "medio",
+          "descricao": "Preparação para temporada de verão"
+        }
+      ],
+      "oportunidades": [
+        "Compras de Natal (facas premium, lanternas)",
+        "Preparação para temporada de verão",
+        "Equipamentos de outdoor leves"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Thermos", "Aurok"]
+    }
+  },
+  "microrregioes": [
+    {
+      "id": "litoral-ba",
+      "nome": "Litoral BA",
+      "cidades": ["Ilhéus", "Porto Seguro", "Caravelas"],
+      "atividades_principais": ["Pesca no Litoral", "Camping de Verão"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~500k"
+    },
+    {
+      "id": "litoral-ce",
+      "nome": "Litoral CE",
+      "cidades": ["Jericoacoara", "Canoa Quebrada"],
+      "atividades_principais": ["Pesca no Litoral", "Camping de Verão"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~400k"
+    },
+    {
+      "id": "litoral-rn",
+      "nome": "Litoral RN",
+      "cidades": ["Natal", "Pipa"],
+      "atividades_principais": ["Pesca no Litoral", "Camping de Verão"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~1M"
+    },
+    {
+      "id": "litoral-pe",
+      "nome": "Litoral PE",
+      "cidades": ["Porto de Galinhas", "Fernando de Noronha"],
+      "atividades_principais": ["Pesca no Litoral", "Camping de Verão"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~600k"
+    },
+    {
+      "id": "litoral-al",
+      "nome": "Litoral AL",
+      "cidades": ["Maragogi"],
+      "atividades_principais": ["Pesca no Litoral", "Camping de Verão"],
+      "intensidade": "Alta",
+      "populacao_aprox": "~300k"
+    },
+    {
+      "id": "litoral-se",
+      "nome": "Litoral SE",
+      "cidades": ["Aracaju"],
+      "atividades_principais": ["Pesca no Litoral", "Camping de Verão"],
+      "intensidade": "Alta",
+      "populacao_aprox": "~600k"
+    },
+    {
+      "id": "capitais-urbanas",
+      "nome": "Capitais e Centros Urbanos",
+      "cidades": ["Salvador", "Fortaleza", "Recife", "Natal", "João Pessoa"],
+      "atividades_principais": ["IPSC", "CBTE", "Tiro de Pressão", "Treinamento Tático"],
+      "intensidade": "Média-Alta",
+      "populacao_aprox": "~8M"
+    }
+  ],
+  "oportunidades_comerciais": {
+    "pesca_litoral": {
+      "periodo": "Dez-Mar (pico Jan-Fev)",
+      "demanda": "ALTA",
+      "produtos_prioritarios": [
+        "Barracas Hawapi (Wasi, Yunka)",
+        "Colchões infláveis reforçados",
+        "Sacos de dormir leves (Hawapi Allpa)",
+        "Lanternas Olight (Baton 3 Pro Max, Seeker 2 Pro)",
+        "Lanternas de cabeça Olight Perun Mini",
+        "Cadeiras Hawapi Picchu",
+        "Sacos estanques Aurok (10L-20L)",
+        "Facas e multitools (Muela, Ganzo)",
+        "Roupas de proteção UV",
+        "Power banks alta capacidade"
+      ],
+      "valor_medio_transacao": "Médio"
+    },
+    "camping_verao": {
+      "periodo": "Dez-Mar (pico Jan-Fev)",
+      "demanda": "MÉDIA-ALTA",
+      "produtos_prioritarios": [
+        "Barracas Hawapi (Wasi, Yunka, Ayllu)",
+        "Colchões infláveis",
+        "Sacos de dormir leves (Hawapi Allpa)",
+        "Lanternas Olight (Baton, S1R)",
+        "Lanternas de cabeça",
+        "Cadeiras portáteis leves (Hawapi Picchu)",
+        "Power banks",
+        "Bolsas impermeáveis",
+        "Facas e multitools",
+        "Roupas leves e de proteção UV"
+      ],
+      "valor_medio_transacao": "Médio"
+    },
+    "tiro_esportivo": {
+      "periodo": "Mar-Nov (picos Abr-Jun e Ago-Out)",
+      "demanda": "BAIXA-MÉDIA",
+      "produtos_prioritarios": [
+        "Pistolas Taurus (G2C, G3C)",
+        "Munições CBC (9mm, .40 S&W)",
+        "Coldres Aurok Kydex",
+        "Porta-carregadores Aurok",
+        "Abafadores Aurok Whisper",
+        "Lanternas Olight (Baldr Mini, Baldr Pro)",
+        "Óculos de proteção",
+        "Cases de transporte",
+        "Miras de fibra óptica"
+      ],
+      "valor_medio_transacao": "Médio-Baixo"
+    },
+    "tiro_pressao": {
+      "periodo": "Ano todo",
+      "demanda": "BAIXA-MÉDIA",
+      "produtos_prioritarios": [
+        "Carabinas Gamo (Big Cat, CFX Royal, Whisper Fusion)",
+        "Pistolas CO₂ (Gamo PT-80, PT-85)",
+        "Chumbinhos Gamo (Match Classic, Hollow Point)",
+        "Bombas manuais Aurok",
+        "Cilindros CO₂ Aurok",
+        "Lunetas VectorOptics (Forester, Hugo)",
+        "Alvos Aurok",
+        "Coletores de chumbinhos",
+        "Kits de limpeza"
+      ],
+      "valor_medio_transacao": "Médio-Baixo"
+    }
+  }
+}
