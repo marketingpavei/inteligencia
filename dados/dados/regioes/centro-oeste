@@ -1,0 +1,563 @@
+{
+  "regiao": "Centro-Oeste",
+  "estados": ["Goiás", "Mato Grosso", "Mato Grosso do Sul", "Distrito Federal"],
+  "emoji": "🌾",
+  "perfil": {
+    "descricao": "A região Centro-Oeste apresenta perfil misto entre tiro esportivo/tático (especialmente no Distrito Federal e Goiânia) e atividades de pesca/camping vinculadas ao Pantanal e regiões de seca prolongada. O clima com estação seca bem definida (maio a outubro) favorece expedições de pesca e camping em áreas remotas. A presença de grandes propriedades rurais e cultura de segurança patrimonial também impulsiona a demanda por armas e equipamentos táticos.",
+    "clima": "Tropical com estação seca bem definida (mai-out)",
+    "caracteristicas_principais": [
+      "Pesca no Pantanal (mai-set)",
+      "Camping em período de seca (mai-out)",
+      "IPSC e tiro esportivo em crescimento",
+      "Tiro de pressão e PCP",
+      "Treinamento tático",
+      "Cultura de segurança patrimonial"
+    ]
+  },
+  "atividades": [
+    {
+      "id": "pesca-pantanal",
+      "nome": "Pesca no Pantanal",
+      "emoji": "🎣",
+      "demanda": "ALTA",
+      "descricao": "Entre maio e setembro, com pico absoluto entre junho e agosto, a pesca no Pantanal atinge seu auge. O período de seca facilita o acesso a rios e lagoas, concentrando peixes e aumentando a produtividade da pesca esportiva.",
+      "periodo_pico": "Jun-Ago",
+      "periodo_ativo": "Mai-Set",
+      "volume": "Alto",
+      "cidades_base": ["Corumbá", "Aquidauana", "Miranda", "Cáceres", "Poconé"],
+      "produtos_relacionados": [
+        "Barracas de três/quatro pessoas com proteção UV (Hawapi)",
+        "Colchões infláveis reforçados (Hawapi)",
+        "Sacos de dormir (Hawapi)",
+        "Lanternas de longo alcance (Olight Seeker, Marauder)",
+        "Lanternas de cabeça (Olight)",
+        "Cadeiras e mesas portáteis (Hawapi)",
+        "Power banks de alta capacidade",
+        "Sacos estanques grande volume (Aurok)",
+        "Facas e multitools (Muela, Aurok)",
+        "Equipamentos térmicos (Thermos)"
+      ],
+      "microrregioes": [
+        {
+          "nome": "Pantanal MS",
+          "cidades": ["Corumbá", "Aquidauana", "Miranda"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Pantanal MT",
+          "cidades": ["Cáceres", "Poconé"],
+          "intensidade": "Muito Alta"
+        }
+      ]
+    },
+    {
+      "id": "camping-seca",
+      "nome": "Camping em Período de Seca",
+      "emoji": "⛺",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "Entre maio e outubro, com pico em junho-agosto, o camping em regiões de seca do Centro-Oeste (Chapada dos Veadeiros em GO, Chapada dos Guimarães em MT, Serra da Bodoquena em MS) recebe fluxo expressivo.",
+      "periodo_pico": "Jun-Ago",
+      "periodo_ativo": "Mai-Out",
+      "volume": "Médio-Alto",
+      "locais": [
+        "Chapada dos Veadeiros (GO)",
+        "Chapada dos Guimarães (MT)",
+        "Serra da Bodoquena (MS)"
+      ],
+      "produtos_relacionados": [
+        "Barracas resistentes a calor intenso (Hawapi)",
+        "Colchões infláveis (Hawapi)",
+        "Sacos de dormir leves (Hawapi)",
+        "Lanternas de alta autonomia (Olight)",
+        "Facas e multitools (Muela, Aurok)",
+        "Sacos estanques para proteção contra poeira (Aurok)",
+        "Cadeiras e mesas portáteis (Hawapi)",
+        "Fogareiros portáteis"
+      ]
+    },
+    {
+      "id": "ipsc-tiro-pratico",
+      "nome": "IPSC e Tiro Prático",
+      "emoji": "🎯",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "O Centro-Oeste possui clubes ativos, especialmente no Distrito Federal (Brasília), Goiânia, Campo Grande e Cuiabá. A temporada oficial vai de março a novembro, com picos em abril-junho e agosto-outubro.",
+      "periodo_pico": "Abr-Jun e Ago-Out",
+      "periodo_ativo": "Mar-Nov",
+      "volume": "Médio-Alto",
+      "modalidades": ["Pistola", "Rifle", "PCC"],
+      "cidades_principais": ["Brasília", "Goiânia", "Campo Grande", "Cuiabá"],
+      "produtos_relacionados": [
+        "Pistolas Taurus",
+        "Munições CBC",
+        "Coldres Aurok",
+        "Porta-carregadores Aurok",
+        "Abafadores eletrônicos Aurok",
+        "Lanternas táticas Olight",
+        "Miras de fibra óptica",
+        "Cases de transporte"
+      ]
+    },
+    {
+      "id": "tiro-pressao-pcp",
+      "nome": "Tiro de Pressão e PCP",
+      "emoji": "💨",
+      "demanda": "MÉDIA",
+      "descricao": "Presente durante o ano com picos entre fevereiro-junho e agosto-novembro. Brasília, Goiânia e Campo Grande possuem clubes de tiro de pressão.",
+      "periodo_pico": "Fev-Jun e Ago-Nov",
+      "periodo_ativo": "Ano todo",
+      "volume": "Médio",
+      "cidades_principais": ["Brasília", "Goiânia", "Campo Grande"],
+      "produtos_relacionados": [
+        "Carabinas PCP (Gamo)",
+        "Pistolas CO₂",
+        "Chumbinhos de precisão",
+        "Bombas manuais de três estágios",
+        "Cilindros de CO₂",
+        "Lunetas (VectorOptics)",
+        "Alvos"
+      ]
+    },
+    {
+      "id": "treinamento-tatico",
+      "nome": "Treinamento Tático",
+      "emoji": "🔫",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "Presente ano todo, com picos em março-abril, julho e outubro-novembro. Brasília, Goiânia e Campo Grande concentram escolas de tiro.",
+      "periodo_pico": "Mar-Abr, Jul, Out-Nov",
+      "periodo_ativo": "Ano todo",
+      "volume": "Médio-Alto",
+      "cidades_principais": ["Brasília", "Goiânia", "Campo Grande"],
+      "produtos_relacionados": [
+        "Pistolas Taurus",
+        "Munições CBC",
+        "Abafadores eletrônicos Aurok",
+        "Coldres Aurok",
+        "Cases de transporte",
+        "Lanternas táticas Olight",
+        "Óculos de proteção",
+        "Porta-carregadores Aurok"
+      ]
+    }
+  ],
+  "calendario_anual": {
+    "janeiro": {
+      "mes": "Janeiro",
+      "numero": 1,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "baixo",
+          "descricao": "Preparação de equipamentos para temporada"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "baixo",
+          "descricao": "Início de cursos"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de armas",
+        "Aquisição de acessórios básicos"
+      ],
+      "marcas_destaque": ["Aurok", "Olight"]
+    },
+    "fevereiro": {
+      "mes": "Fevereiro",
+      "numero": 2,
+      "demanda_geral": "MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "medio",
+          "descricao": "Preparação para estaduais"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Preparação para temporada"
+        }
+      ],
+      "oportunidades": [
+        "Preparação de equipamentos",
+        "Aquisição de munições"
+      ],
+      "marcas_destaque": ["Gamo", "VectorOptics", "CBC"]
+    },
+    "marco": {
+      "mes": "Março",
+      "numero": 3,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Início oficial da temporada"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "alto",
+          "descricao": "Pico de matrículas"
+        }
+      ],
+      "oportunidades": [
+        "Compra de munições",
+        "Coldres e acessórios de competição",
+        "Abafadores eletrônicos",
+        "Miras de fibra óptica"
+      ],
+      "marcas_destaque": ["Taurus", "CBC", "Aurok", "Olight"]
+    },
+    "abril": {
+      "mes": "Abril",
+      "numero": 4,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Etapas estaduais e regionais"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "medio",
+          "descricao": "Campeonatos"
+        }
+      ],
+      "oportunidades": [
+        "Munições em volume",
+        "Acessórios de competição"
+      ],
+      "marcas_destaque": ["CBC", "Aurok", "Gamo"]
+    },
+    "maio": {
+      "mes": "Maio",
+      "numero": 5,
+      "demanda_geral": "MÉDIA-ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-pantanal",
+          "nome": "Pesca no Pantanal",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "camping-seca",
+          "nome": "Camping de Seca",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Continuidade de competições"
+        }
+      ],
+      "oportunidades": [
+        "Pesca no Pantanal",
+        "Camping de seca",
+        "Competições de tiro"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Aurok", "CBC"]
+    },
+    "junho": {
+      "mes": "Junho",
+      "numero": 6,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-pantanal",
+          "nome": "Pesca no Pantanal",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "camping-seca",
+          "nome": "Camping de Seca",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        }
+      ],
+      "oportunidades": [
+        "Pesca no Pantanal (pico absoluto)",
+        "Camping de seca (pico absoluto)",
+        "Barracas, colchões, sacos de dormir",
+        "Lanternas de longo alcance",
+        "Sacos estanques",
+        "Competições de tiro"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Thermos", "Aurok", "CBC"]
+    },
+    "julho": {
+      "mes": "Julho",
+      "numero": 7,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-pantanal",
+          "nome": "Pesca no Pantanal",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "camping-seca",
+          "nome": "Camping de Seca",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "alto",
+          "descricao": "Férias escolares"
+        }
+      ],
+      "oportunidades": [
+        "Pesca no Pantanal",
+        "Camping de seca",
+        "Equipamentos de camping premium",
+        "Treinamento tático"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Thermos", "Aurok", "Taurus"]
+    },
+    "agosto": {
+      "mes": "Agosto",
+      "numero": 8,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-pantanal",
+          "nome": "Pesca no Pantanal",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "camping-seca",
+          "nome": "Camping de Seca",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Preparação para etapas nacionais"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "medio",
+          "descricao": "Campeonatos"
+        }
+      ],
+      "oportunidades": [
+        "Pesca no Pantanal (pico final)",
+        "Camping de seca",
+        "Competições de tiro",
+        "Acessórios táticos"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Aurok", "CBC", "Gamo"]
+    },
+    "setembro": {
+      "mes": "Setembro",
+      "numero": 9,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-pantanal",
+          "nome": "Pesca no Pantanal",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Etapas nacionais"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos"
+        }
+      ],
+      "oportunidades": [
+        "Pesca no Pantanal",
+        "Competições de tiro",
+        "Munições em volume"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "CBC", "Aurok"]
+    },
+    "outubro": {
+      "mes": "Outubro",
+      "numero": 10,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "camping-seca",
+          "nome": "Camping de Seca",
+          "nivel": "medio",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Reta final de competições"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos nacionais"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "alto",
+          "descricao": "Preparação para fim de ano"
+        }
+      ],
+      "oportunidades": [
+        "Camping de seca (reta final)",
+        "Competições de tiro",
+        "Preparação para compras de fim de ano"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "CBC", "Aurok", "Taurus"]
+    },
+    "novembro": {
+      "mes": "Novembro",
+      "numero": 11,
+      "demanda_geral": "MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Fechamento da temporada"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de equipamentos",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Aurok", "Olight"]
+    },
+    "dezembro": {
+      "mes": "Dezembro",
+      "numero": 12,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "baixo",
+          "descricao": "Preparação para próxima temporada"
+        }
+      ],
+      "oportunidades": [
+        "Compras de Natal (facas premium, lanternas)",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Muela", "Olight", "Thermos"]
+    }
+  },
+  "microrregioes": [
+    {
+      "id": "pantanal-ms",
+      "nome": "Pantanal MS",
+      "cidades": ["Corumbá", "Aquidauana", "Miranda"],
+      "atividades_principais": ["Pesca no Pantanal"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~150k"
+    },
+    {
+      "id": "pantanal-mt",
+      "nome": "Pantanal MT",
+      "cidades": ["Cáceres", "Poconé"],
+      "atividades_principais": ["Pesca no Pantanal"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~100k"
+    },
+    {
+      "id": "chapadas",
+      "nome": "Chapadas",
+      "cidades": ["Alto Paraíso", "São Jorge", "Cavalcante"],
+      "atividades_principais": ["Camping de Seca"],
+      "intensidade": "Média-Alta",
+      "populacao_aprox": "~50k"
+    },
+    {
+      "id": "capitais",
+      "nome": "Capitais e Centros Urbanos",
+      "cidades": ["Brasília", "Goiânia", "Campo Grande", "Cuiabá"],
+      "atividades_principais": ["IPSC", "Treinamento Tático", "Tiro de Pressão"],
+      "intensidade": "Média-Alta",
+      "populacao_aprox": "~4M"
+    }
+  ],
+  "oportunidades_comerciais": {
+    "pesca_pantanal": {
+      "periodo": "Mai-Set (pico Jun-Ago)",
+      "demanda": "ALTA",
+      "produtos_prioritarios": [
+        "Barracas Hawapi (Moray, Ayllu)",
+        "Colchões infláveis reforçados",
+        "Sacos de dormir (Allpa, Qiwa)",
+        "Lanternas Olight (Seeker 2 Pro, Seeker 4 Pro, X9R Marauder)",
+        "Lanternas de cabeça Olight",
+        "Cadeiras Hawapi (Atacama, Kaypi)",
+        "Sacos estanques Aurok (20L, 30L, 40L)",
+        "Facas e multitools (Muela, Aurok)",
+        "Equipamentos térmicos Thermos"
+      ],
+      "valor_medio_transacao": "Alto"
+    },
+    "camping_seca": {
+      "periodo": "Mai-Out (pico Jun-Ago)",
+      "demanda": "MÉDIA-ALTA",
+      "produtos_prioritarios": [
+        "Barracas Hawapi (Moray, Wasi, Yunka)",
+        "Colchões infláveis",
+        "Sacos de dormir leves (Allpa)",
+        "Lanternas Olight (Warrior 3S, Seeker)",
+        "Lanternas de cabeça",
+        "Facas Muela",
+        "Multitools Aurok",
+        "Sacos estanques Aurok",
+        "Cadeiras e mesas Hawapi"
+      ],
+      "valor_medio_transacao": "Médio"
+    },
+    "ipsc_competicoes": {
+      "periodo": "Mar-Nov (picos Abr-Jun e Ago-Out)",
+      "demanda": "MÉDIA-ALTA",
+      "produtos_prioritarios": [
+        "Pistolas Taurus",
+        "Munições CBC",
+        "Coldres Aurok",
+        "Porta-carregadores Aurok",
+        "Abafadores Aurok",
+        "Lanternas Olight",
+        "Miras de fibra óptica"
+      ],
+      "valor_medio_transacao": "Médio-Alto"
+    }
+  }
+}
