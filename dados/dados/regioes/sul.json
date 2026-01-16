@@ -1,0 +1,712 @@
+{
+  "regiao": "Sul",
+  "estados": ["Rio Grande do Sul", "Santa Catarina", "Paraná"],
+  "emoji": "❄️",
+  "perfil": {
+    "descricao": "A região Sul apresenta o mercado mais diversificado e completo do país para produtos táticos e outdoor. Caracteriza-se por forte presença de clubes de tiro, alta adesão a modalidades esportivas regulamentadas, tradição em caça de javali e proximidade com mercados de caça esportiva da Argentina e Uruguai.",
+    "clima": "Temperado com inverno rigoroso",
+    "caracteristicas_principais": [
+      "Forte presença de clubes de tiro",
+      "Alta adesão a modalidades esportivas",
+      "Tradição em caça de javali",
+      "Proximidade com Argentina e Uruguai",
+      "Camping de serra em inverno"
+    ]
+  },
+  "atividades": [
+    {
+      "id": "caca-javali",
+      "nome": "Caça de Javali",
+      "emoji": "🐗",
+      "demanda": "ALTA",
+      "descricao": "A região Sul é o único território brasileiro com movimento expressivo e consistente de caça de javali durante praticamente todo o ano, com pico absoluto entre junho e agosto.",
+      "periodo_pico": "Jun-Ago",
+      "periodo_ativo": "Mai-Set",
+      "volume": "Muito Alto",
+      "produtos_relacionados": [
+        "Espingardas (Hatsan, Browning)",
+        "Munições específicas",
+        "Facas táticas de evisceração",
+        "Lanternas de altíssima potência",
+        "Abafadores eletrônicos premium",
+        "Equipamentos de camping resistentes"
+      ],
+      "microrregioes": [
+        {
+          "nome": "Interior RS",
+          "cidades": ["Vacaria", "Caxias do Sul", "Santa Maria"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Oeste SC",
+          "cidades": ["Chapecó", "Concórdia"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Sudoeste PR",
+          "cidades": ["Pato Branco", "Francisco Beltrão"],
+          "intensidade": "Muito Alta"
+        }
+      ]
+    },
+    {
+      "id": "caca-internacional",
+      "nome": "Caça Esportiva Internacional",
+      "emoji": "🌍",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "Caçadores da região Sul, especialmente do Rio Grande do Sul, frequentemente cruzam a fronteira para expedições de caça esportiva regulamentada na Argentina e Uruguai.",
+      "periodo_pico": "Mai-Jul",
+      "periodo_ativo": "Mar-Ago",
+      "volume": "Alto",
+      "destinos": {
+        "Argentina": {
+          "especie_pico": "Cervos (red stag)",
+          "periodo": "Mar-Jun"
+        },
+        "Uruguai": {
+          "especies": "Pombas, perdizes",
+          "periodo": "Mai-Jul"
+        }
+      },
+      "produtos_relacionados": [
+        "Espingardas e rifles premium",
+        "Facas premium (Muela)",
+        "Equipamentos de camping de performance elevada",
+        "Lanternas de longo alcance",
+        "Binóculos e lunetas de precisão"
+      ],
+      "microrregioes": [
+        {
+          "nome": "Fronteira RS",
+          "cidades": ["Santana do Livramento", "Uruguaiana", "Jaguarão"],
+          "intensidade": "Alta"
+        }
+      ]
+    },
+    {
+      "id": "ipsc-tiro-pratico",
+      "nome": "IPSC e Tiro Prático",
+      "emoji": "🎯",
+      "demanda": "ALTA",
+      "descricao": "A região Sul, junto ao Sudeste, concentra a maior parte dos clubes filiados ao IPSC Brasil e possui calendário intenso de competições.",
+      "periodo_pico": "Abr-Jun e Ago-Out",
+      "periodo_ativo": "Mar-Nov",
+      "volume": "Alto",
+      "modalidades": ["Pistola", "Rifle", "PCC (Pistol Caliber Carbine)"],
+      "cidades_principais": ["Curitiba", "Londrina", "Maringá", "Florianópolis", "Joinville", "Blumenau"],
+      "produtos_relacionados": [
+        "Coldres Kydex específicos",
+        "Porta-carregadores",
+        "Abafadores eletrônicos premium",
+        "Miras de fibra óptica",
+        "Cases rígidos de transporte",
+        "Lanternas táticas",
+        "Munições (CBC, Taurus)"
+      ]
+    },
+    {
+      "id": "cbte-tiro-olimpico",
+      "nome": "CBTE - Tiro Esportivo Olímpico",
+      "emoji": "🏅",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "A Confederação Brasileira de Tiro Esportivo regula modalidades olímpicas como carabina, pistola, trap e skeet.",
+      "periodo_pico": "Mar-Abr e Ago-Out",
+      "periodo_ativo": "Fev-Nov",
+      "volume": "Médio-Alto",
+      "modalidades": ["Carabina", "Pistola", "Trap", "Skeet"],
+      "cidades_principais": ["Porto Alegre", "Curitiba", "Florianópolis", "Joinville"],
+      "produtos_relacionados": [
+        "Espingardas regulamentares",
+        "Munições CBTE",
+        "Coletes de tiro",
+        "Óculos de proteção certificados",
+        "Abafadores eletrônicos",
+        "Alvos oficiais"
+      ]
+    },
+    {
+      "id": "tiro-pressao-pcp",
+      "nome": "Tiro de Pressão e PCP",
+      "emoji": "💨",
+      "demanda": "MÉDIA",
+      "descricao": "Presente durante todo o ano com picos entre fevereiro-junho e agosto-novembro.",
+      "periodo_pico": "Fev-Jun e Ago-Nov",
+      "periodo_ativo": "Ano todo",
+      "volume": "Médio",
+      "produtos_relacionados": [
+        "Carabinas PCP (Gamo)",
+        "Pistolas CO₂",
+        "Chumbinhos de precisão",
+        "Bombas manuais de três estágios",
+        "Cilindros de CO₂",
+        "Lunetas (VectorOptics)",
+        "Alvos"
+      ]
+    },
+    {
+      "id": "pesca-barragens",
+      "nome": "Pesca em Barragens",
+      "emoji": "🎣",
+      "demanda": "MÉDIA",
+      "descricao": "Entre agosto e novembro, especialmente em setembro e outubro, a pesca em barragens do Sul e Sudeste aquece.",
+      "periodo_pico": "Set-Out",
+      "periodo_ativo": "Ago-Nov",
+      "volume": "Médio",
+      "locais": [
+        "Itaipu (PR)",
+        "Foz do Areia (PR)",
+        "Salto Caxias (PR)",
+        "Barra Grande (SC)",
+        "Machadinho (SC)"
+      ],
+      "produtos_relacionados": [
+        "Barracas (3-4 pessoas)",
+        "Colchões infláveis reforçados",
+        "Sacos de dormir",
+        "Lanternas de longo alcance",
+        "Cadeiras e mesas portáteis",
+        "Power banks",
+        "Sacos estanques"
+      ]
+    },
+    {
+      "id": "camping-inverno-serras",
+      "nome": "Camping de Inverno em Serras",
+      "emoji": "⛺",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "Entre junho e agosto, o camping em regiões serranas atinge pico elevado.",
+      "periodo_pico": "Jun-Ago",
+      "periodo_ativo": "Jun-Ago",
+      "volume": "Médio-Alto",
+      "locais": [
+        "Serra Gaúcha (Gramado, Canela, São José dos Ausentes, Cambará do Sul)",
+        "Serra Catarinense (São Joaquim, Urubici, Bom Jardim da Serra)",
+        "Campos Gerais (PR)"
+      ],
+      "produtos_relacionados": [
+        "Barracas reforçadas",
+        "Sacos de dormir (-5°C a -15°C)",
+        "Colchões isolantes térmicos",
+        "Lanternas de alta autonomia",
+        "Fogareiros portáteis",
+        "Roupas térmicas",
+        "Facas e multitools"
+      ]
+    },
+    {
+      "id": "treinamento-tatico",
+      "nome": "Treinamento Tático",
+      "emoji": "🔫",
+      "demanda": "ALTA",
+      "descricao": "Presente ano todo, com picos em março-abril, julho e outubro-novembro.",
+      "periodo_pico": "Mar-Abr, Jul, Out-Nov",
+      "periodo_ativo": "Ano todo",
+      "volume": "Alto",
+      "cidades_principais": ["Curitiba", "Londrina", "Maringá", "Florianópolis", "Joinville"],
+      "produtos_relacionados": [
+        "Pistolas (Taurus)",
+        "Munições para treino (500-1000 rounds)",
+        "Abafadores eletrônicos",
+        "Coldres universais e específicos",
+        "Óculos de proteção",
+        "Cases de transporte",
+        "Lanternas táticas",
+        "Porta-carregadores"
+      ]
+    }
+  ],
+  "calendario_anual": {
+    "janeiro": {
+      "mes": "Janeiro",
+      "numero": 1,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "baixo",
+          "descricao": "Preparação de equipamentos para temporada"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "baixo",
+          "descricao": "Início de cursos"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de armas",
+        "Aquisição de acessórios básicos"
+      ],
+      "marcas_destaque": ["Aurok", "Olight"]
+    },
+    "fevereiro": {
+      "mes": "Fevereiro",
+      "numero": 2,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "medio",
+          "descricao": "Preparação para estaduais"
+        }
+      ],
+      "oportunidades": [
+        "Preparação de equipamentos",
+        "Aquisição de munições"
+      ],
+      "marcas_destaque": ["Gamo", "VectorOptics"]
+    },
+    "marco": {
+      "mes": "Março",
+      "numero": 3,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Início oficial da temporada"
+        },
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "alto",
+          "descricao": "Etapas estaduais"
+        },
+        {
+          "atividade_id": "caca-internacional",
+          "nome": "Caça Internacional",
+          "nivel": "medio",
+          "descricao": "Início da temporada na Argentina"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "alto",
+          "descricao": "Pico de matrículas"
+        }
+      ],
+      "oportunidades": [
+        "Compra de munições",
+        "Coldres e acessórios de competição",
+        "Abafadores eletrônicos",
+        "Miras de fibra óptica",
+        "Cases de transporte"
+      ],
+      "marcas_destaque": ["Taurus", "CBC", "Aurok", "Olight"]
+    },
+    "abril": {
+      "mes": "Abril",
+      "numero": 4,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Etapas estaduais e regionais"
+        },
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "alto",
+          "descricao": "Campeonatos"
+        },
+        {
+          "atividade_id": "caca-internacional",
+          "nome": "Caça Internacional",
+          "nivel": "alto",
+          "descricao": "Pico na Argentina"
+        }
+      ],
+      "oportunidades": [
+        "Munições em volume",
+        "Acessórios de competição",
+        "Equipamentos de caça internacional"
+      ],
+      "marcas_destaque": ["Hatsan", "Browning", "Muela", "CBC"]
+    },
+    "maio": {
+      "mes": "Maio",
+      "numero": 5,
+      "demanda_geral": "MÉDIA-ALTA",
+      "atividades": [
+        {
+          "atividade_id": "caca-javali",
+          "nome": "Caça de Javali",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "caca-internacional",
+          "nome": "Caça Internacional",
+          "nivel": "alto",
+          "descricao": "Pico absoluto"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Continuidade de competições"
+        }
+      ],
+      "oportunidades": [
+        "Lanternas de altíssima potência",
+        "Facas táticas",
+        "Equipamentos de camping",
+        "Abafadores premium"
+      ],
+      "marcas_destaque": ["Hatsan", "Muela", "Olight", "Hawapi"]
+    },
+    "junho": {
+      "mes": "Junho",
+      "numero": 6,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "caca-javali",
+          "nome": "Caça de Javali",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "caca-internacional",
+          "nome": "Caça Internacional",
+          "nivel": "alto",
+          "descricao": "Pico continuado"
+        },
+        {
+          "atividade_id": "camping-inverno-serras",
+          "nome": "Camping de Inverno",
+          "nivel": "alto",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        }
+      ],
+      "oportunidades": [
+        "Espingardas (Hatsan, Browning)",
+        "Munições específicas",
+        "Facas de evisceração",
+        "Lanternas premium",
+        "Abafadores eletrônicos",
+        "Barracas de inverno",
+        "Sacos de dormir térmicos",
+        "Lanternas de longo alcance"
+      ],
+      "marcas_destaque": ["Hatsan", "Browning", "Muela", "Olight", "Thermos", "Hawapi", "Aurok"]
+    },
+    "julho": {
+      "mes": "Julho",
+      "numero": 7,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "caca-javali",
+          "nome": "Caça de Javali",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "camping-inverno-serras",
+          "nome": "Camping de Inverno",
+          "nivel": "alto",
+          "descricao": "Pico de atividade"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "alto",
+          "descricao": "Férias escolares"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        }
+      ],
+      "oportunidades": [
+        "Toda a linha de caça",
+        "Equipamentos de camping premium",
+        "Treinamento tático",
+        "Acessórios de competição"
+      ],
+      "marcas_destaque": ["Hatsan", "Browning", "Hawapi", "Olight", "Aurok", "Thermos"]
+    },
+    "agosto": {
+      "mes": "Agosto",
+      "numero": 8,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "caca-javali",
+          "nome": "Caça de Javali",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "camping-inverno-serras",
+          "nome": "Camping de Inverno",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "pesca-barragens",
+          "nome": "Pesca em Barragens",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Preparação para etapas nacionais"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos"
+        }
+      ],
+      "oportunidades": [
+        "Caça de javali (pico final)",
+        "Camping de inverno",
+        "Pesca em barragens",
+        "Competições de tiro",
+        "Acessórios táticos"
+      ],
+      "marcas_destaque": ["Hatsan", "Browning", "Hawapi", "Olight", "Aurok", "Gamo", "VectorOptics"]
+    },
+    "setembro": {
+      "mes": "Setembro",
+      "numero": 9,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "caca-javali",
+          "nome": "Caça de Javali",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "pesca-barragens",
+          "nome": "Pesca em Barragens",
+          "nivel": "alto",
+          "descricao": "Pico de atividade"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Etapas nacionais"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos"
+        }
+      ],
+      "oportunidades": [
+        "Caça de javali",
+        "Pesca em barragens",
+        "Competições de tiro",
+        "Munições em volume"
+      ],
+      "marcas_destaque": ["Hatsan", "Hawapi", "Olight", "CBC", "Aurok"]
+    },
+    "outubro": {
+      "mes": "Outubro",
+      "numero": 10,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "caca-javali",
+          "nome": "Caça de Javali",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "pesca-barragens",
+          "nome": "Pesca em Barragens",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Reta final de competições"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos nacionais"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "alto",
+          "descricao": "Preparação para fim de ano"
+        }
+      ],
+      "oportunidades": [
+        "Caça de javali",
+        "Pesca em barragens",
+        "Competições de tiro",
+        "Preparação para compras de fim de ano"
+      ],
+      "marcas_destaque": ["Hatsan", "Hawapi", "Olight", "CBC", "Aurok", "Taurus"]
+    },
+    "novembro": {
+      "mes": "Novembro",
+      "numero": 11,
+      "demanda_geral": "MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Fechamento da temporada"
+        },
+        {
+          "atividade_id": "pesca-barragens",
+          "nome": "Pesca em Barragens",
+          "nivel": "baixo",
+          "descricao": "Fim da temporada"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de equipamentos",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Aurok", "Olight"]
+    },
+    "dezembro": {
+      "mes": "Dezembro",
+      "numero": 12,
+      "demanda_geral": "MÉDIA-BAIXA",
+      "atividades": [
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "baixo",
+          "descricao": "Preparação para próxima temporada"
+        }
+      ],
+      "oportunidades": [
+        "Compras de Natal (facas premium, lanternas)",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Muela", "Olight", "Thermos"]
+    }
+  },
+  "microrregioes": [
+    {
+      "id": "interior-rs",
+      "nome": "Interior RS",
+      "cidades": ["Vacaria", "Caxias do Sul", "Santa Maria"],
+      "atividades_principais": ["Caça de Javali"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~500k"
+    },
+    {
+      "id": "oeste-sc",
+      "nome": "Oeste SC",
+      "cidades": ["Chapecó", "Concórdia"],
+      "atividades_principais": ["Caça de Javali"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~300k"
+    },
+    {
+      "id": "sudoeste-pr",
+      "nome": "Sudoeste PR",
+      "cidades": ["Pato Branco", "Francisco Beltrão"],
+      "atividades_principais": ["Caça de Javali"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~250k"
+    },
+    {
+      "id": "fronteira-rs",
+      "nome": "Fronteira RS",
+      "cidades": ["Santana do Livramento", "Uruguaiana", "Jaguarão"],
+      "atividades_principais": ["Caça Esportiva Internacional"],
+      "intensidade": "Alta",
+      "populacao_aprox": "~200k"
+    },
+    {
+      "id": "capitais-metropoles",
+      "nome": "Capitais e Regiões Metropolitanas",
+      "cidades": ["Porto Alegre", "Curitiba", "Florianópolis"],
+      "atividades_principais": ["IPSC", "CBTE", "Treinamento Tático"],
+      "intensidade": "Alta",
+      "populacao_aprox": "~3.5M"
+    },
+    {
+      "id": "serras",
+      "nome": "Serras",
+      "cidades": ["Gramado", "Canela", "São Joaquim", "Urubici", "Campos Gerais"],
+      "atividades_principais": ["Camping de Inverno"],
+      "intensidade": "Média-Alta",
+      "populacao_aprox": "~150k"
+    }
+  ],
+  "oportunidades_comerciais": {
+    "caça_javali": {
+      "periodo": "Jun-Ago",
+      "demanda": "MUITO ALTA",
+      "produtos_prioritarios": [
+        "Espingardas Hatsan e Browning",
+        "Munições específicas",
+        "Facas Muela",
+        "Lanternas Olight (Seeker, Warrior)",
+        "Abafadores Aurok Whisper",
+        "Equipamentos de camping (Hawapi)"
+      ],
+      "valor_medio_transacao": "Alto"
+    },
+    "ipsc_competicoes": {
+      "periodo": "Mar-Nov (picos Abr-Jun e Ago-Out)",
+      "demanda": "ALTA",
+      "produtos_prioritarios": [
+        "Pistolas Taurus",
+        "Munições CBC",
+        "Coldres Aurok",
+        "Porta-carregadores Aurok",
+        "Abafadores Aurok",
+        "Lanternas Olight",
+        "Miras de fibra óptica"
+      ],
+      "valor_medio_transacao": "Médio-Alto"
+    },
+    "camping_inverno": {
+      "periodo": "Jun-Ago",
+      "demanda": "MÉDIA-ALTA",
+      "produtos_prioritarios": [
+        "Barracas Hawapi",
+        "Sacos de dormir térmicos",
+        "Colchões infláveis",
+        "Lanternas Olight",
+        "Fogareiros",
+        "Roupas térmicas",
+        "Facas e multitools"
+      ],
+      "valor_medio_transacao": "Médio"
+    }
+  }
+}
