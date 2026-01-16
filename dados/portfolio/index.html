@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pavei - MVP Inteligente</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0a0a;
+            color: #fff;
+        }
+
+        /* Hero */
+        .hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), 
+                        url('https://images.unsplash.com/photo-1526554850534-7c78330d5f90?w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-content {
+            z-index: 2;
+            max-width: 900px;
+            padding: 0 20px;
+        }
+
+        .logo {
+            width: 280px;
+            max-width: 90%;
+            margin-bottom: 2rem;
+            filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.8));
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+            margin-bottom: 2rem;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 80px 20px;
+            background: linear-gradient(180deg, #0a0a0a 0%, #16213e 100%);
+        }
+
+        /* Seção de Título */
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #e2e8f0;
+            position: relative;
+            padding-bottom: 20px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #4ade80, #22c55e);
+            border-radius: 2px;
+        }
+
+        /* Filtros */
+        .filtros {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .filtro-grupo {
+            margin-bottom: 20px;
+        }
+
+        .filtro-grupo label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #4ade80;
+        }
+
+        .filtro-grupo select,
+        .filtro-grupo input {
+            padding: 12px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            font-size: 1rem;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .filtro-grupo select:focus,
+        .filtro-grupo input:focus {
+            outline: none;
+            border-color: #4ade80;
+            background: rgba(74, 222, 128, 0.1);
+        }
+
+        /* Cards de Marcas */
+        .marcas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .marca-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 15px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .marca-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(74, 222, 128, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .marca-logo {
+            width: 100%;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 20px;
+            filter: brightness(1.1);
+        }
+
+        .marca-nome {
+            font-size: 1.8rem;
+            color: #4ade80;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .marca-categoria {
+            display: inline-block;
+            background: rgba(74, 222, 128, 0.15);
+            color: #4ade80;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .marca-descricao {
+            color: #cbd5e1;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .marca-linhas {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .marca-linhas h4 {
+            color: #f59e0b;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .linha-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            border-left: 3px solid #4ade80;
+        }
+
+        .linha-nome {
+            color: #4ade80;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .linha-tipo {
+            color: #94a3b8;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+
+        .linha-specs {
+            color: #cbd5e1;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+
+        .linha-specs span {
+            display: inline-block;
+            background: rgba(74, 222, 128, 0.1);
+            padding: 3px 8px;
+            border-radius: 4px;
+            margin-right: 8px;
+            margin-bottom: 5px;
+        }
+
+        /* Sazonalidade */
+        .sazonalidade-badge {
+            display: inline-block;
+            background: rgba(245, 158, 11, 0.15);
+            color: #f59e0b;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        /* Responsivo */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .marcas-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filtro-grupo select,
+            .filtro-grupo input {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="https://www.paveitactical.com/img/logo-pavei.png" alt="Pavei" class="logo">
+            <h1>Portfólio Pavei</h1>
+            <p class="subtitle">Conheça nossas marcas e produtos estratégicos</p>
+        </div>
+    </section>
+
+    <!-- Container Principal -->
+    <div class="container">
+        <!-- Filtros -->
+        <section class="filtros">
+            <h2 class="section-title">🔍 Explore o Portfólio</h2>
+
+            <div class="filtro-grupo">
+                <label for="filtro-marca">Filtrar por Marca:</label>
+                <select id="filtro-marca">
+                    <option value="">Todas as Marcas</option>
+                </select>
+            </div>
+
+            <div class="filtro-grupo">
+                <label for="filtro-categoria">Filtrar por Categoria:</label>
+                <select id="filtro-categoria">
+                    <option value="">Todas as Categorias</option>
+                    <option value="armas-fogo">Armas de Fogo</option>
+                    <option value="municoes">Munições</option>
+                    <option value="acessorios-taticos">Acessórios Táticos</option>
+                </select>
+            </div>
+
+            <div class="filtro-grupo">
+                <label for="filtro-regiao">Filtrar por Região (Sazonalidade):</label>
+                <select id="filtro-regiao">
+                    <option value="">Todas as Regiões</option>
+                    <option value="Sudeste">Sudeste</option>
+                    <option value="Sul">Sul</option>
+                    <option value="Centro-Oeste">Centro-Oeste</option>
+                    <option value="Norte">Norte</option>
+                    <option value="Nordeste">Nordeste</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Grid de Marcas -->
+        <h2 class="section-title">📦 Marcas e Produtos</h2>
+        <div class="marcas-grid" id="marcasContainer">
+            <!-- Será preenchido dinamicamente -->
+        </div>
+    </div>
+
+    <script>
+        // URL do arquivo JSON no GitHub (Raw)
+        const JSON_URL = 'https://raw.githubusercontent.com/seu-usuario/seu-repo/main/dados/portfolio/marcas.json';
+
+        let dadosCompletos = [];
+
+        // Carregar dados do JSON
+        async function carregarDados() {
+            try {
+                const response = await fetch(JSON_URL);
+                const data = await response.json();
+                dadosCompletos = data.marcas;
+
+                // Preencher filtros
+                preencherFiltrosMarcas();
+
+                // Renderizar marcas
+                renderizarMarcas(dadosCompletos);
+            } catch (error) {
+                console.error('Erro ao carregar dados:', error);
+                document.getElementById('marcasContainer').innerHTML = 
+                    '<p style="color: red;">Erro ao carregar dados. Verifique a URL do JSON.</p>';
+            }
+        }
+
+        // Preencher dropdown de marcas
+        function preencherFiltrosMarcas() {
+            const select = document.getElementById('filtro-marca');
+            const marcas = [...new Set(dadosCompletos.map(m => m.nome))];
+
+            marcas.forEach(marca => {
+                const option = document.createElement('option');
+                option.value = marca;
+                option.textContent = marca;
+                select.appendChild(option);
+            });
+        }
+
+        // Renderizar marcas
+        function renderizarMarcas(marcas) {
+            const container = document.getElementById('marcasContainer');
+            container.innerHTML = '';
+
+            if (marcas.length === 0) {
+                container.innerHTML = '<p style="color: #94a3b8; grid-column: 1/-1; text-align: center;">Nenhum resultado encontrado.</p>';
+                return;
+            }
+
+            marcas.forEach(marca => {
+                const card = document.createElement('div');
+                card.className = 'marca-card';
+
+                let linhasHTML = '';
+                marca.linhas.forEach(linha => {
+                    const specs = `${linha.tipo}${linha.calibre ? ' - ' + linha.calibre : ''}${linha.capacidade ? ' - ' + linha.capacidade : ''}`;
+                    const sazonalidade = linha.sazonalidade ? `<div class="sazonalidade-badge">📅 ${linha.sazonalidade.pico}</div>` : '';
+
+                    linhasHTML += `
+                        <div class="linha-item">
+                            <div class="linha-nome">${linha.nome}</div>
+                            <div class="linha-tipo">${specs}</div>
+                            <div class="linha-specs">
+                                ${linha.caracteristicas.slice(0, 2).map(c => `<span>${c}</span>`).join('')}
+                            </div>
+                            ${sazonalidade}
+                        </div>
+                    `;
+                });
+
+                card.innerHTML = `
+                    <img src="${marca.logo}" alt="${marca.nome}" class="marca-logo" onerror="this.src='https://via.placeholder.com/300x120?text=${marca.nome}'">
+                    <div class="marca-nome">${marca.nome}</div>
+                    <div class="marca-categoria">${marca.categoria.replace('-', ' ')}</div>
+                    <div class="marca-descricao">${marca.descricao}</div>
+                    <div class="marca-linhas">
+                        <h4>📋 Linhas Principais (${marca.linhas.length})</h4>
+                        ${linhasHTML}
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        // Filtrar dados
+        function aplicarFiltros() {
+            const marca = document.getElementById('filtro-marca').value;
+            const categoria = document.getElementById('filtro-categoria').value;
+            const regiao = document.getElementById('filtro-regiao').value;
+
+            let marcasFiltradas = dadosCompletos;
+
+            if (marca) {
+                marcasFiltradas = marcasFiltradas.filter(m => m.nome === marca);
+            }
+
+            if (categoria) {
+                marcasFiltradas = marcasFiltradas.filter(m => m.categoria === categoria);
+            }
+
+            if (regiao) {
+                marcasFiltradas = marcasFiltradas.filter(m => 
+                    m.linhas.some(l => l.sazonalidade && l.sazonalidade.regioes.includes(regiao))
+                );
+            }
+
+            renderizarMarcas(marcasFiltradas);
+        }
+
+        // Event listeners
+        document.getElementById('filtro-marca').addEventListener('change', aplicarFiltros);
+        document.getElementById('filtro-categoria').addEventListener('change', aplicarFiltros);
+        document.getElementById('filtro-regiao').addEventListener('change', aplicarFiltros);
+
+        // Carregar ao iniciar
+        window.addEventListener('load', carregarDados);
+    </script>
+</body>
+</html>
