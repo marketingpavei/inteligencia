@@ -1,0 +1,667 @@
+{
+  "regiao": "Sudeste",
+  "estados": ["São Paulo", "Rio de Janeiro", "Minas Gerais", "Espírito Santo"],
+  "emoji": "🏙️",
+  "perfil": {
+    "descricao": "A região Sudeste é o maior mercado de tiro esportivo, tático e outdoor do Brasil. Concentra a maior densidade de clubes IPSC, CBTE e centros de treinamento. Possui forte presença de caça esportiva (especialmente em MG), pesca em barragens e camping de montanha. São Paulo e Rio de Janeiro são epicentros de demanda de tiro tático e treinamento. Minas Gerais destaca-se em caça e tiro de pressão.",
+    "clima": "Tropical e subtropical com variações por altitude",
+    "caracteristicas_principais": [
+      "Maior mercado de tiro esportivo do Brasil",
+      "Maior densidade de clubes IPSC e CBTE",
+      "Forte presença de centros de treinamento tático",
+      "Caça esportiva em Minas Gerais",
+      "Pesca em barragens (Itaipu, Furnas, Sobradinho)",
+      "Camping de montanha (Serra da Mantiqueira, Serra do Mar)"
+    ]
+  },
+  "atividades": [
+    {
+      "id": "ipsc-tiro-pratico",
+      "nome": "IPSC e Tiro Prático",
+      "emoji": "🎯",
+      "demanda": "MUITO ALTA",
+      "descricao": "A região Sudeste concentra a maior parte dos clubes IPSC Brasil e possui calendário intensíssimo de competições. São Paulo, Rio de Janeiro e Minas Gerais são os epicentros. Competições estaduais, regionais e nacionais ocorrem praticamente todos os meses.",
+      "periodo_pico": "Abr-Jun e Ago-Out",
+      "periodo_ativo": "Mar-Nov",
+      "volume": "Muito Alto",
+      "modalidades": ["Pistola", "Rifle", "PCC (Pistol Caliber Carbine)", "Shotgun"],
+      "cidades_principais": ["São Paulo", "Campinas", "Sorocaba", "Rio de Janeiro", "Niterói", "Belo Horizonte", "Uberlândia", "Vitória"],
+      "produtos_relacionados": [
+        "Coldres Kydex específicos",
+        "Porta-carregadores",
+        "Abafadores eletrônicos premium",
+        "Miras de fibra óptica",
+        "Cases rígidos de transporte",
+        "Lanternas táticas",
+        "Munições (CBC, Taurus)",
+        "Magazines de alta capacidade (ETS)"
+      ],
+      "microrregioes": [
+        {
+          "nome": "Grande São Paulo",
+          "cidades": ["São Paulo", "Campinas", "Sorocaba", "Jundiaí"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Vale do Paraíba",
+          "cidades": ["São José dos Campos", "Taubaté"],
+          "intensidade": "Alta"
+        },
+        {
+          "nome": "Grande Rio",
+          "cidades": ["Rio de Janeiro", "Niterói", "Duque de Caxias"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Minas Gerais Central",
+          "cidades": ["Belo Horizonte", "Uberlândia", "Divinópolis"],
+          "intensidade": "Alta"
+        }
+      ]
+    },
+    {
+      "id": "cbte-tiro-olimpico",
+      "nome": "CBTE - Tiro Esportivo Olímpico",
+      "emoji": "🏅",
+      "demanda": "ALTA",
+      "descricao": "A região Sudeste concentra a maior quantidade de clubes de tiro olímpico do Brasil. Modalidades como carabina, pistola, trap e skeet possuem calendário robusto de competições estaduais, regionais e nacionais.",
+      "periodo_pico": "Mar-Abr e Ago-Out",
+      "periodo_ativo": "Fev-Nov",
+      "volume": "Alto",
+      "modalidades": ["Carabina", "Pistola", "Trap", "Skeet"],
+      "cidades_principais": ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Campinas"],
+      "produtos_relacionados": [
+        "Espingardas regulamentares",
+        "Munições CBTE",
+        "Coletes de tiro",
+        "Óculos de proteção certificados",
+        "Abafadores eletrônicos",
+        "Alvos oficiais"
+      ]
+    },
+    {
+      "id": "caca-esportiva",
+      "nome": "Caça Esportiva",
+      "emoji": "🦌",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "Minas Gerais é o destaque em caça esportiva no Sudeste. Caça de javali, porco-do-mato, veado, paca e outras espécies ocorrem durante o ano, com picos em períodos específicos. São Paulo e Rio de Janeiro possuem atividade menor mas crescente.",
+      "periodo_pico": "Mai-Set",
+      "periodo_ativo": "Mar-Out",
+      "volume": "Médio-Alto",
+      "especies": ["Javali", "Porco-do-mato", "Veado", "Paca", "Tatu"],
+      "microrregioes": [
+        {
+          "nome": "Triângulo Mineiro",
+          "cidades": ["Uberlândia", "Araxá", "Ituiutaba"],
+          "intensidade": "Muito Alta"
+        },
+        {
+          "nome": "Zona da Mata MG",
+          "cidades": ["Viçosa", "Manhuaçu"],
+          "intensidade": "Alta"
+        },
+        {
+          "nome": "Vale do Paraíba SP",
+          "cidades": ["São José dos Campos", "Taubaté"],
+          "intensidade": "Média"
+        }
+      ],
+      "produtos_relacionados": [
+        "Espingardas (Hatsan, Browning)",
+        "Munições específicas",
+        "Facas táticas de evisceração (Muela)",
+        "Lanternas de altíssima potência (Olight)",
+        "Abafadores eletrônicos premium (Aurok)",
+        "Equipamentos de camping resistentes"
+      ]
+    },
+    {
+      "id": "tiro-pressao-pcp",
+      "nome": "Tiro de Pressão e PCP",
+      "emoji": "💨",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "Presente durante todo o ano com picos entre fevereiro-junho e agosto-novembro. Minas Gerais possui forte tradição em tiro de pressão com clubes consolidados. São Paulo e Rio de Janeiro também possuem demanda significativa.",
+      "periodo_pico": "Fev-Jun e Ago-Nov",
+      "periodo_ativo": "Ano todo",
+      "volume": "Médio-Alto",
+      "cidades_principais": ["Belo Horizonte", "Uberlândia", "São Paulo", "Rio de Janeiro"],
+      "produtos_relacionados": [
+        "Carabinas PCP (Gamo)",
+        "Pistolas CO₂",
+        "Chumbinhos de precisão",
+        "Bombas manuais de três estágios",
+        "Cilindros de CO₂",
+        "Lunetas (VectorOptics)",
+        "Alvos"
+      ]
+    },
+    {
+      "id": "pesca-barragens",
+      "nome": "Pesca em Barragens",
+      "emoji": "🎣",
+      "demanda": "MÉDIA",
+      "descricao": "Entre agosto e novembro, especialmente em setembro e outubro, a pesca em barragens do Sudeste aquece. Destinos principais incluem Itaipu (SP/PR), Furnas (MG/SP), Sobradinho (MG/BA).",
+      "periodo_pico": "Set-Out",
+      "periodo_ativo": "Ago-Nov",
+      "volume": "Médio",
+      "locais": [
+        "Itaipu (SP/PR)",
+        "Furnas (MG/SP)",
+        "Sobradinho (MG/BA)",
+        "Três Marias (MG)",
+        "Barra Bonita (SP)"
+      ],
+      "produtos_relacionados": [
+        "Barracas (3-4 pessoas)",
+        "Colchões infláveis reforçados",
+        "Sacos de dormir",
+        "Lanternas de longo alcance",
+        "Cadeiras e mesas portáteis",
+        "Power banks",
+        "Sacos estanques"
+      ]
+    },
+    {
+      "id": "camping-montanha",
+      "nome": "Camping de Montanha",
+      "emoji": "⛺",
+      "demanda": "MÉDIA",
+      "descricao": "Entre maio e setembro, o camping em regiões serranas atinge picos elevados. Serra da Mantiqueira, Serra do Mar, Pico do Itatiaia e outras regiões montanhosas recebem fluxo constante de aventureiros.",
+      "periodo_pico": "Jun-Ago",
+      "periodo_ativo": "Mai-Set",
+      "volume": "Médio",
+      "locais": [
+        "Serra da Mantiqueira (MG/SP/RJ)",
+        "Serra do Mar (SP/RJ)",
+        "Pico do Itatiaia (RJ/MG)",
+        "Serra da Canastra (MG)",
+        "Campos do Jordão (SP)"
+      ],
+      "produtos_relacionados": [
+        "Barracas reforçadas",
+        "Sacos de dormir (-5°C a -15°C)",
+        "Colchões isolantes térmicos",
+        "Lanternas de alta autonomia",
+        "Fogareiros portáteis",
+        "Roupas térmicas",
+        "Facas e multitools"
+      ]
+    },
+    {
+      "id": "treinamento-tatico",
+      "nome": "Treinamento Tático",
+      "emoji": "🔫",
+      "demanda": "MUITO ALTA",
+      "descricao": "Presente ano todo, com picos em março-abril, julho e outubro-novembro. São Paulo e Rio de Janeiro concentram a maior quantidade de centros de treinamento tático do Brasil. Demanda muito alta para munições, acessórios e equipamentos.",
+      "periodo_pico": "Mar-Abr, Jul, Out-Nov",
+      "periodo_ativo": "Ano todo",
+      "volume": "Muito Alto",
+      "cidades_principais": ["São Paulo", "Rio de Janeiro", "Campinas", "Belo Horizonte", "Uberlândia"],
+      "produtos_relacionados": [
+        "Pistolas (Taurus)",
+        "Munições para treino (500-1000 rounds)",
+        "Abafadores eletrônicos",
+        "Coldres universais e específicos",
+        "Óculos de proteção",
+        "Cases de transporte",
+        "Lanternas táticas",
+        "Porta-carregadores"
+      ]
+    }
+  ],
+  "calendario_anual": {
+    "janeiro": {
+      "mes": "Janeiro",
+      "numero": 1,
+      "demanda_geral": "MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Preparação de equipamentos para temporada"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "medio",
+          "descricao": "Início de cursos"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de armas",
+        "Aquisição de acessórios básicos",
+        "Renovação de equipamentos"
+      ],
+      "marcas_destaque": ["Aurok", "Olight"]
+    },
+    "fevereiro": {
+      "mes": "Fevereiro",
+      "numero": 2,
+      "demanda_geral": "MÉDIA-ALTA",
+      "atividades": [
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "alto",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "medio",
+          "descricao": "Preparação para estaduais"
+        },
+        {
+          "atividade_id": "caca-esportiva",
+          "nome": "Caça Esportiva",
+          "nivel": "medio",
+          "descricao": "Início em MG"
+        }
+      ],
+      "oportunidades": [
+        "Preparação de equipamentos",
+        "Aquisição de munições",
+        "Caça esportiva em MG"
+      ],
+      "marcas_destaque": ["Gamo", "VectorOptics", "Hatsan"]
+    },
+    "marco": {
+      "mes": "Março",
+      "numero": 3,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "muito_alto",
+          "descricao": "Início oficial da temporada"
+        },
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "alto",
+          "descricao": "Etapas estaduais"
+        },
+        {
+          "atividade_id": "caca-esportiva",
+          "nome": "Caça Esportiva",
+          "nivel": "alto",
+          "descricao": "Pico em MG"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "muito_alto",
+          "descricao": "Pico de matrículas"
+        }
+      ],
+      "oportunidades": [
+        "Compra de munições em volume",
+        "Coldres e acessórios de competição",
+        "Abafadores eletrônicos",
+        "Miras de fibra óptica",
+        "Cases de transporte",
+        "Equipamentos de caça"
+      ],
+      "marcas_destaque": ["Taurus", "CBC", "Aurok", "Olight", "Hatsan"]
+    },
+    "abril": {
+      "mes": "Abril",
+      "numero": 4,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "muito_alto",
+          "descricao": "Etapas estaduais e regionais"
+        },
+        {
+          "atividade_id": "cbte-tiro-olimpico",
+          "nome": "CBTE",
+          "nivel": "alto",
+          "descricao": "Campeonatos"
+        },
+        {
+          "atividade_id": "caca-esportiva",
+          "nome": "Caça Esportiva",
+          "nivel": "alto",
+          "descricao": "Continuidade em MG"
+        }
+      ],
+      "oportunidades": [
+        "Munições em volume",
+        "Acessórios de competição",
+        "Equipamentos de caça"
+      ],
+      "marcas_destaque": ["Hatsan", "Browning", "Muela", "CBC"]
+    },
+    "maio": {
+      "mes": "Maio",
+      "numero": 5,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "caca-esportiva",
+          "nome": "Caça Esportiva",
+          "nivel": "alto",
+          "descricao": "Continuidade em MG"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Continuidade de competições"
+        },
+        {
+          "atividade_id": "camping-montanha",
+          "nome": "Camping de Montanha",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        }
+      ],
+      "oportunidades": [
+        "Caça esportiva em MG",
+        "Competições de tiro",
+        "Equipamentos de camping"
+      ],
+      "marcas_destaque": ["Hatsan", "Muela", "Olight", "Hawapi"]
+    },
+    "junho": {
+      "mes": "Junho",
+      "numero": 6,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "caca-esportiva",
+          "nome": "Caça Esportiva",
+          "nivel": "alto",
+          "descricao": "Continuidade em MG"
+        },
+        {
+          "atividade_id": "camping-montanha",
+          "nome": "Camping de Montanha",
+          "nivel": "alto",
+          "descricao": "Pico de atividade"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        }
+      ],
+      "oportunidades": [
+        "Caça esportiva",
+        "Camping de montanha",
+        "Competições de tiro"
+      ],
+      "marcas_destaque": ["Hatsan", "Browning", "Muela", "Olight", "Thermos", "Hawapi", "Aurok"]
+    },
+    "julho": {
+      "mes": "Julho",
+      "numero": 7,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "camping-montanha",
+          "nome": "Camping de Montanha",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "muito_alto",
+          "descricao": "Férias escolares"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        }
+      ],
+      "oportunidades": [
+        "Camping de montanha premium",
+        "Treinamento tático",
+        "Acessórios de competição"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Aurok", "Thermos"]
+    },
+    "agosto": {
+      "mes": "Agosto",
+      "numero": 8,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "camping-montanha",
+          "nome": "Camping de Montanha",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "pesca-barragens",
+          "nome": "Pesca em Barragens",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Preparação para etapas nacionais"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos"
+        }
+      ],
+      "oportunidades": [
+        "Camping de montanha",
+        "Pesca em barragens",
+        "Competições de tiro",
+        "Acessórios táticos"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Aurok", "Gamo", "VectorOptics"]
+    },
+    "setembro": {
+      "mes": "Setembro",
+      "numero": 9,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-barragens",
+          "nome": "Pesca em Barragens",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "muito_alto",
+          "descricao": "Etapas nacionais"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos"
+        }
+      ],
+      "oportunidades": [
+        "Pesca em barragens",
+        "Competições de tiro",
+        "Munições em volume"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "CBC", "Aurok"]
+    },
+    "outubro": {
+      "mes": "Outubro",
+      "numero": 10,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-barragens",
+          "nome": "Pesca em Barragens",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "muito_alto",
+          "descricao": "Reta final de competições"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos nacionais"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "muito_alto",
+          "descricao": "Preparação para fim de ano"
+        }
+      ],
+      "oportunidades": [
+        "Pesca em barragens",
+        "Competições de tiro",
+        "Preparação para compras de fim de ano"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "CBC", "Aurok", "Taurus"]
+    },
+    "novembro": {
+      "mes": "Novembro",
+      "numero": 11,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "alto",
+          "descricao": "Fechamento da temporada"
+        },
+        {
+          "atividade_id": "pesca-barragens",
+          "nome": "Pesca em Barragens",
+          "nivel": "medio",
+          "descricao": "Fim da temporada"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de equipamentos",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Aurok", "Olight"]
+    },
+    "dezembro": {
+      "mes": "Dezembro",
+      "numero": 12,
+      "demanda_geral": "MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "medio",
+          "descricao": "Preparação para próxima temporada"
+        }
+      ],
+      "oportunidades": [
+        "Compras de Natal (facas premium, lanternas)",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Muela", "Olight", "Thermos"]
+    }
+  },
+  "microrregioes": [
+    {
+      "id": "grande-sao-paulo",
+      "nome": "Grande São Paulo",
+      "cidades": ["São Paulo", "Campinas", "Sorocaba", "Jundiaí"],
+      "atividades_principais": ["IPSC", "Treinamento Tático"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~22M"
+    },
+    {
+      "id": "vale-paraiba",
+      "nome": "Vale do Paraíba",
+      "cidades": ["São José dos Campos", "Taubaté"],
+      "atividades_principais": ["IPSC", "Caça Esportiva"],
+      "intensidade": "Alta",
+      "populacao_aprox": "~2.5M"
+    },
+    {
+      "id": "grande-rio",
+      "nome": "Grande Rio",
+      "cidades": ["Rio de Janeiro", "Niterói", "Duque de Caxias"],
+      "atividades_principais": ["IPSC", "CBTE", "Treinamento Tático"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~12M"
+    },
+    {
+      "id": "minas-central",
+      "nome": "Minas Gerais Central",
+      "cidades": ["Belo Horizonte", "Uberlândia", "Divinópolis"],
+      "atividades_principais": ["Caça Esportiva", "Tiro de Pressão", "IPSC"],
+      "intensidade": "Alta",
+      "populacao_aprox": "~4M"
+    },
+    {
+      "id": "serras",
+      "nome": "Serras",
+      "cidades": ["Campos do Jordão", "Itatiaia", "Teresópolis"],
+      "atividades_principais": ["Camping de Montanha"],
+      "intensidade": "Média-Alta",
+      "populacao_aprox": "~500k"
+    }
+  ],
+  "oportunidades_comerciais": {
+    "ipsc_competicoes": {
+      "periodo": "Mar-Nov (picos Abr-Jun e Ago-Out)",
+      "demanda": "MUITO ALTA",
+      "produtos_prioritarios": [
+        "Pistolas Taurus",
+        "Munições CBC",
+        "Coldres Aurok",
+        "Porta-carregadores Aurok",
+        "Abafadores Aurok",
+        "Lanternas Olight",
+        "Miras de fibra óptica"
+      ],
+      "valor_medio_transacao": "Médio-Alto"
+    },
+    "caça_esportiva": {
+      "periodo": "Mar-Out (pico Mai-Set)",
+      "demanda": "ALTA",
+      "produtos_prioritarios": [
+        "Espingardas Hatsan e Browning",
+        "Munições específicas",
+        "Facas Muela",
+        "Lanternas Olight",
+        "Abafadores Aurok",
+        "Equipamentos de camping"
+      ],
+      "valor_medio_transacao": "Alto"
+    },
+    "camping_montanha": {
+      "periodo": "Mai-Set (pico Jun-Ago)",
+      "demanda": "MÉDIA-ALTA",
+      "produtos_prioritarios": [
+        "Barracas Hawapi",
+        "Sacos de dormir térmicos",
+        "Colchões infláveis",
+        "Lanternas Olight",
+        "Fogareiros",
+        "Roupas térmicas",
+        "Facas e multitools"
+      ],
+      "valor_medio_transacao": "Médio"
+    }
+  }
+}
