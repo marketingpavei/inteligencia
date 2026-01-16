@@ -247,6 +247,22 @@
             margin-top: 10px;
         }
 
+        /* Loading */
+        .loading {
+            text-align: center;
+            color: #94a3b8;
+            padding: 40px;
+        }
+
+        .error {
+            text-align: center;
+            color: #ef4444;
+            padding: 40px;
+            background: rgba(239, 68, 68, 0.1);
+            border-radius: 10px;
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+
         /* Responsivo */
         @media (max-width: 768px) {
             h1 {
@@ -313,12 +329,12 @@
         <!-- Grid de Marcas -->
         <h2 class="section-title">📦 Marcas e Produtos</h2>
         <div class="marcas-grid" id="marcasContainer">
-            <!-- Será preenchido dinamicamente -->
+            <div class="loading">⏳ Carregando dados...</div>
         </div>
     </div>
 
     <script>
-        // URL do arquivo JSON no GitHub (Raw)
+        // URL do arquivo JSON no GitHub (Raw) - AJUSTADA PARA SEU REPOSITÓRIO
         const JSON_URL = 'https://raw.githubusercontent.com/marketingpavei/inteligencia/main/dados/portfolio/marcas.json';
 
         let dadosCompletos = [];
@@ -326,9 +342,17 @@
         // Carregar dados do JSON
         async function carregarDados() {
             try {
+                console.log('Carregando de:', JSON_URL);
                 const response = await fetch(JSON_URL);
+
+                if (!response.ok) {
+                    throw new Error(`Erro HTTP: ${response.status}`);
+                }
+
                 const data = await response.json();
                 dadosCompletos = data.marcas;
+
+                console.log('Dados carregados:', dadosCompletos);
 
                 // Preencher filtros
                 preencherFiltrosMarcas();
@@ -338,7 +362,7 @@
             } catch (error) {
                 console.error('Erro ao carregar dados:', error);
                 document.getElementById('marcasContainer').innerHTML = 
-                    '<p style="color: red;">Erro ao carregar dados. Verifique a URL do JSON.</p>';
+                    `<div class="error">❌ Erro ao carregar dados.<br>Verifique se o arquivo JSON existe em: <br><code>${JSON_URL}</code><br><br>Erro: ${error.message}</div>`;
             }
         }
 
@@ -361,7 +385,7 @@
             container.innerHTML = '';
 
             if (marcas.length === 0) {
-                container.innerHTML = '<p style="color: #94a3b8; grid-column: 1/-1; text-align: center;">Nenhum resultado encontrado.</p>';
+                container.innerHTML = '<div class="error">❌ Nenhum resultado encontrado.</div>';
                 return;
             }
 
