@@ -1,0 +1,269 @@
+{
+  "marcas": [
+    {
+      "id": "taurus",
+      "nome": "Taurus",
+      "logo": "https://www.paveitactical.com/img/logo-taurus.png",
+      "descricao": "Fabricante líder em pistolas e revólveres para tiro esportivo e defesa",
+      "categoria": "armas-fogo",
+      "posicionamento": "Premium Nacional",
+      "site": "https://www.taurus.com.br",
+      "linhas": [
+        {
+          "id": "g3c",
+          "nome": "G3C",
+          "tipo": "Pistola Semiautomática",
+          "calibre": "9mm",
+          "capacidade": "12+1",
+          "aplicacoes": ["IPSC", "Treinamento Tático", "Defesa"],
+          "caracteristicas": [
+            "Slide em aço carbono",
+            "Cano de 3.2 polegadas",
+            "Mira de fibra óptica",
+            "Segurança de gatilho"
+          ],
+          "sazonalidade": {
+            "pico": "Mar-Nov",
+            "regioes": ["Sudeste", "Sul", "Centro-Oeste"],
+            "demanda": "Alta"
+          },
+          "oportunidades": [
+            "IPSC Mar-Nov",
+            "Treinamento Tático Ano Todo",
+            "Eventos de Campeonato Abr-Jun e Ago-Out"
+          ]
+        },
+        {
+          "id": "g3xl",
+          "nome": "G3XL",
+          "tipo": "Pistola Semiautomática",
+          "calibre": "9mm",
+          "capacidade": "17+1",
+          "aplicacoes": ["IPSC", "Treinamento Tático", "Defesa Avançada"],
+          "caracteristicas": [
+            "Slide em aço carbono",
+            "Cano de 4 polegadas",
+            "Mira de fibra óptica ajustável",
+            "Segurança de gatilho aprimorado"
+          ],
+          "sazonalidade": {
+            "pico": "Mar-Nov",
+            "regioes": ["Sudeste", "Sul"],
+            "demanda": "Alta"
+          },
+          "oportunidades": [
+            "IPSC Competitivo Mar-Nov",
+            "Treinamento Avançado"
+          ]
+        },
+        {
+          "id": "ts9",
+          "nome": "TS9",
+          "tipo": "Pistola Semiautomática",
+          "calibre": "9mm",
+          "capacidade": "17+1",
+          "aplicacoes": ["IPSC Competitivo", "Treinamento Tático Premium"],
+          "caracteristicas": [
+            "Slide polido",
+            "Cano de 5 polegadas",
+            "Mira de fibra óptica premium",
+            "Gatilho ajustável"
+          ],
+          "sazonalidade": {
+            "pico": "Abr-Jun e Ago-Out",
+            "regioes": ["Sudeste"],
+            "demanda": "Média-Alta"
+          },
+          "oportunidades": [
+            "IPSC Competitivo",
+            "Campeonatos Estaduais e Nacionais"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cbc",
+      "nome": "CBC",
+      "logo": "https://www.paveitactical.com/img/logo-cbc.png",
+      "descricao": "Maior fabricante de munições do Brasil",
+      "categoria": "municoes",
+      "posicionamento": "Premium Nacional",
+      "site": "https://www.cbc.com.br",
+      "linhas": [
+        {
+          "id": "cbc-9mm",
+          "nome": "Munição 9mm",
+          "tipo": "Munição de Fogo Central",
+          "calibre": "9mm Luger",
+          "peso_projetil": "115gr",
+          "aplicacoes": ["IPSC", "Treinamento", "Tiro de Pressão"],
+          "caracteristicas": [
+            "Pólvora balanceada",
+            "Estojo de latão",
+            "Velocidade consistente",
+            "Disponível em caixas de 50 e 500"
+          ],
+          "sazonalidade": {
+            "pico": "Mar-Nov",
+            "regioes": ["Sudeste", "Sul", "Centro-Oeste"],
+            "demanda": "Muito Alta"
+          },
+          "oportunidades": [
+            "Volume para clubes IPSC",
+            "Treinamento Tático Contínuo",
+            "Campeonatos Mar-Nov"
+          ]
+        },
+        {
+          "id": "cbc-40",
+          "nome": "Munição .40 S&W",
+          "tipo": "Munição de Fogo Central",
+          "calibre": ".40 S&W",
+          "peso_projetil": "180gr",
+          "aplicacoes": ["IPSC", "Treinamento Tático"],
+          "caracteristicas": [
+            "Potência balanceada",
+            "Estojo de latão",
+            "Recarga possível",
+            "Caixas de 50"
+          ],
+          "sazonalidade": {
+            "pico": "Mar-Nov",
+            "regioes": ["Sudeste", "Sul"],
+            "demanda": "Alta"
+          },
+          "oportunidades": [
+            "IPSC Divisão .40",
+            "Treinamento Especializado"
+          ]
+        },
+        {
+          "id": "cbc-45",
+          "nome": "Munição .45 ACP",
+          "tipo": "Munição de Fogo Central",
+          "calibre": ".45 ACP",
+          "peso_projetil": "230gr",
+          "aplicacoes": ["IPSC", "Treinamento Tático Premium"],
+          "caracteristicas": [
+            "Potência máxima",
+            "Estojo de latão premium",
+            "Recarga possível",
+            "Caixas de 50"
+          ],
+          "sazonalidade": {
+            "pico": "Abr-Jun e Ago-Out",
+            "regioes": ["Sudeste"],
+            "demanda": "Média"
+          },
+          "oportunidades": [
+            "IPSC Divisão .45",
+            "Campeonatos Especializados"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aurok",
+      "nome": "Aurok",
+      "logo": "https://www.paveitactical.com/img/logo-aurok.png",
+      "descricao": "Marca própria Pavei - Acessórios táticos e outdoor premium",
+      "categoria": "acessorios-taticos",
+      "posicionamento": "Premium Próprio",
+      "site": "https://www.paveitactical.com",
+      "linhas": [
+        {
+          "id": "aurok-coldres",
+          "nome": "Coldres Kydex",
+          "tipo": "Acessório Tático",
+          "material": "Kydex Reforçado",
+          "aplicacoes": ["IPSC", "Treinamento Tático", "Defesa"],
+          "caracteristicas": [
+            "Moldagem customizável",
+            "Retenção ajustável",
+            "Modelos velados e ostensivos",
+            "Compatível com múltiplas pistolas"
+          ],
+          "sazonalidade": {
+            "pico": "Mar-Nov",
+            "regioes": ["Sudeste", "Sul", "Centro-Oeste"],
+            "demanda": "Alta"
+          },
+          "oportunidades": [
+            "IPSC Mar-Nov (equipamento essencial)",
+            "Treinamento Tático Ano Todo",
+            "Campeonatos Abr-Jun e Ago-Out"
+          ]
+        },
+        {
+          "id": "aurok-abafadores",
+          "nome": "Abafadores Whisper Premium",
+          "tipo": "Acessório Tático",
+          "material": "Alumínio + Elastômero",
+          "aplicacoes": ["Caça", "Treinamento Tático", "IPSC"],
+          "caracteristicas": [
+            "Redução de 25-30dB",
+            "Peso leve (90g)",
+            "Compatível com múltiplos calibres",
+            "Versão Lithium (mais leve)"
+          ],
+          "sazonalidade": {
+            "pico": "Jun-Ago (Caça) e Mar-Nov (IPSC)",
+            "regioes": ["Sul", "Centro-Oeste", "Sudeste"],
+            "demanda": "Alta"
+          },
+          "oportunidades": [
+            "Caça de Javali Jun-Ago",
+            "IPSC Mar-Nov",
+            "Treinamento Tático Contínuo"
+          ]
+        },
+        {
+          "id": "aurok-porta-carregadores",
+          "nome": "Porta-Carregadores Kydex",
+          "tipo": "Acessório Tático",
+          "material": "Kydex",
+          "aplicacoes": ["IPSC", "Treinamento Tático"],
+          "caracteristicas": [
+            "Retenção dupla",
+            "Modelos simples e duplos",
+            "Montagem em cinturão",
+            "Compatível com múltiplos calibres"
+          ],
+          "sazonalidade": {
+            "pico": "Mar-Nov",
+            "regioes": ["Sudeste", "Sul"],
+            "demanda": "Alta"
+          },
+          "oportunidades": [
+            "IPSC Mar-Nov (equipamento essencial)",
+            "Treinamento Especializado"
+          ]
+        },
+        {
+          "id": "aurok-sacos-estanques",
+          "nome": "Sacos Estanques",
+          "tipo": "Acessório Outdoor",
+          "material": "PVC Reforçado",
+          "capacidades": ["20L", "30L", "40L"],
+          "aplicacoes": ["Pesca", "Camping", "Caça"],
+          "caracteristicas": [
+            "Impermeável 100%",
+            "Alças reforçadas",
+            "Válvula de ar",
+            "Cores variadas"
+          ],
+          "sazonalidade": {
+            "pico": "Mai-Out (Pesca Pantanal e Amazônia)",
+            "regioes": ["Centro-Oeste", "Norte"],
+            "demanda": "Alta"
+          },
+          "oportunidades": [
+            "Pesca Pantanal Mai-Set",
+            "Pesca Amazônia Jun-Nov",
+            "Camping em Seca Mai-Out"
+          ]
+        }
+      ]
+    }
+  ]
+}
