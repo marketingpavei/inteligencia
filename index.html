@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Pavei - MVP Inteligente</title>
+    <title>Pavei Tactical & Outdoor - Inteligência de Mercado</title>
     <style>
         * {
             margin: 0;
@@ -13,450 +13,358 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #0a0a0a;
-            color: #fff;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #333;
+            overflow-x: hidden;
         }
 
-        /* Hero */
-        .hero {
-            height: 60vh;
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), 
-                        url('https://images.unsplash.com/photo-1526554850534-7c78330d5f90?w=1920&q=80');
-            background-size: cover;
-            background-position: center;
+        /* HEADER COM LOGO */
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff6b35;
+        }
+
+        header h1 {
+            color: #ff6b35;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #999;
+            font-size: 14px;
+        }
+
+        /* BOTÕES FLUTUANTES */
+        .floating-buttons {
+            position: fixed;
+            top: 100px;
+            right: 20px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            position: relative;
+            gap: 10px;
+            z-index: 1000;
         }
 
-        .hero-content {
-            z-index: 2;
-            max-width: 900px;
+        .btn-float {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 13px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-float.ativo {
+            background: #ff6b35;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .btn-float.inativo {
+            background: #444;
+            color: #999;
+        }
+
+        .btn-float:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        /* CONTAINER PRINCIPAL */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
             padding: 0 20px;
         }
 
-        .logo {
-            width: 280px;
-            max-width: 90%;
-            margin-bottom: 2rem;
-            filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.8));
-        }
-
-        h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
-            color: #cbd5e1;
-            margin-bottom: 2rem;
-        }
-
-        /* Container */
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 80px 20px;
-            background: linear-gradient(180deg, #0a0a0a 0%, #16213e 100%);
-        }
-
-        /* Seção de Título */
-        .section-title {
-            font-size: 2.5rem;
-            margin-bottom: 2rem;
-            text-align: center;
-            color: #e2e8f0;
-            position: relative;
-            padding-bottom: 20px;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80, #22c55e);
-            border-radius: 2px;
-        }
-
-        /* Filtros */
-        .filtros {
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 20px;
+        /* SEÇÃO DE DADOS GERAIS */
+        .secao-dados-gerais {
+            background: white;
             padding: 40px;
-            margin-bottom: 60px;
-            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 40px;
+            display: none;
         }
 
-        .filtro-grupo {
-            margin-bottom: 20px;
-        }
-
-        .filtro-grupo label {
+        .secao-dados-gerais.ativo {
             display: block;
+        }
+
+        .secao-dados-gerais h2 {
+            color: #ff6b35;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .secao-dados-gerais p {
+            line-height: 1.8;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        /* SEÇÃO DE REGIÃO */
+        .secao-regiao {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+
+        .secao-regiao.ativo {
+            display: block;
+        }
+
+        .secao-regiao h2 {
+            color: #ff6b35;
             margin-bottom: 10px;
-            font-weight: 600;
-            color: #4ade80;
+            font-size: 24px;
         }
 
-        .filtro-grupo select,
-        .filtro-grupo input {
-            padding: 12px 20px;
-            border-radius: 10px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            background: rgba(255, 255, 255, 0.05);
-            color: #fff;
-            font-size: 1rem;
-            width: 100%;
-            max-width: 400px;
+        .secao-regiao .descricao-regiao {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.8;
         }
 
-        .filtro-grupo select:focus,
-        .filtro-grupo input:focus {
-            outline: none;
-            border-color: #4ade80;
-            background: rgba(74, 222, 128, 0.1);
-        }
-
-        /* Cards de Marcas */
-        .marcas-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-            margin-bottom: 60px;
-        }
-
-        .marca-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 15px;
+        /* CALENDÁRIO - MAPA DE CALOR */
+        .calendario-container {
+            margin: 40px 0;
+            background: #f9f9f9;
             padding: 30px;
-            transition: all 0.3s ease;
-            cursor: pointer;
+            border-radius: 12px;
+            border-left: 5px solid #ff6b35;
         }
 
-        .marca-card:hover {
-            background: rgba(255, 255, 255, 0.05);
-            border-color: rgba(74, 222, 128, 0.3);
-            transform: translateY(-5px);
-        }
-
-        .marca-logo {
-            width: 100%;
-            height: 120px;
-            object-fit: contain;
+        .calendario-container h3 {
+            color: #333;
             margin-bottom: 20px;
-            filter: brightness(1.1);
+            font-size: 18px;
         }
 
-        .marca-nome {
-            font-size: 1.8rem;
-            color: #4ade80;
-            font-weight: 700;
-            margin-bottom: 10px;
+        .calendario-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
         }
 
-        .marca-categoria {
-            display: inline-block;
-            background: rgba(74, 222, 128, 0.15);
-            color: #4ade80;
-            padding: 6px 15px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-        }
-
-        .marca-descricao {
-            color: #cbd5e1;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-
-        .marca-linhas {
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            padding-top: 20px;
-            margin-top: 20px;
-        }
-
-        .marca-linhas h4 {
-            color: #f59e0b;
-            font-size: 1rem;
-            margin-bottom: 15px;
-        }
-
-        .linha-item {
-            background: rgba(0, 0, 0, 0.3);
+        .mes-card {
             padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            border-left: 3px solid #4ade80;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
         }
 
-        .linha-nome {
-            color: #4ade80;
-            font-weight: 700;
-            margin-bottom: 8px;
+        .mes-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
-        .linha-tipo {
-            color: #94a3b8;
-            font-size: 0.9rem;
-            margin-bottom: 8px;
+        .mes-card.muito-alta {
+            background: #d32f2f;
+            color: white;
         }
 
-        .linha-specs {
-            color: #cbd5e1;
-            font-size: 0.85rem;
-            line-height: 1.5;
+        .mes-card.alta {
+            background: #f57c00;
+            color: white;
         }
 
-        .linha-specs span {
-            display: inline-block;
-            background: rgba(74, 222, 128, 0.1);
-            padding: 3px 8px;
-            border-radius: 4px;
-            margin-right: 8px;
+        .mes-card.media-alta {
+            background: #fbc02d;
+            color: #333;
+        }
+
+        .mes-card.media {
+            background: #7cb342;
+            color: white;
+        }
+
+        .mes-card.baixa {
+            background: #90a4ae;
+            color: white;
+        }
+
+        .mes-card.selecionado {
+            border: 3px solid #333;
+            box-shadow: 0 0 15px rgba(255, 107, 53, 0.5);
+        }
+
+        .mes-card-mes {
+            font-weight: bold;
+            font-size: 14px;
             margin-bottom: 5px;
         }
 
-        /* Sazonalidade */
-        .sazonalidade-badge {
-            display: inline-block;
-            background: rgba(245, 158, 11, 0.15);
-            color: #f59e0b;
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            margin-top: 10px;
+        .mes-card-demanda {
+            font-size: 12px;
+            opacity: 0.9;
         }
 
-        /* Loading */
-        .loading {
-            text-align: center;
-            color: #94a3b8;
-            padding: 40px;
+        /* CARACTERÍSTICAS DA SAZONALIDADE */
+        .caracteristicas-container {
+            margin: 40px 0;
+            background: #f0f7ff;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 5px solid #2196f3;
+            display: none;
         }
 
-        .error {
-            text-align: center;
-            color: #ef4444;
-            padding: 40px;
-            background: rgba(239, 68, 68, 0.1);
-            border-radius: 10px;
-            border: 1px solid rgba(239, 68, 68, 0.2);
+        .caracteristicas-container.ativo {
+            display: block;
         }
 
-        /* Responsivo */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            .marcas-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .filtro-grupo select,
-            .filtro-grupo input {
-                max-width: 100%;
-            }
-        }
-    </style>
-</head>
-<body>
-    <!-- Hero -->
-    <section class="hero">
-        <div class="hero-content">
-            <img src="https://www.paveitactical.com/img/logo-pavei.png" alt="Pavei" class="logo">
-            <h1>Portfólio Pavei</h1>
-            <p class="subtitle">Conheça nossas marcas e produtos estratégicos</p>
-        </div>
-    </section>
-
-    <!-- Container Principal -->
-    <div class="container">
-        <!-- Filtros -->
-        <section class="filtros">
-            <h2 class="section-title">🔍 Explore o Portfólio</h2>
-
-            <div class="filtro-grupo">
-                <label for="filtro-marca">Filtrar por Marca:</label>
-                <select id="filtro-marca">
-                    <option value="">Todas as Marcas</option>
-                </select>
-            </div>
-
-            <div class="filtro-grupo">
-                <label for="filtro-categoria">Filtrar por Categoria:</label>
-                <select id="filtro-categoria">
-                    <option value="">Todas as Categorias</option>
-                    <option value="armas-fogo">Armas de Fogo</option>
-                    <option value="municoes">Munições</option>
-                    <option value="acessorios-taticos">Acessórios Táticos</option>
-                </select>
-            </div>
-
-            <div class="filtro-grupo">
-                <label for="filtro-regiao">Filtrar por Região (Sazonalidade):</label>
-                <select id="filtro-regiao">
-                    <option value="">Todas as Regiões</option>
-                    <option value="Sudeste">Sudeste</option>
-                    <option value="Sul">Sul</option>
-                    <option value="Centro-Oeste">Centro-Oeste</option>
-                    <option value="Norte">Norte</option>
-                    <option value="Nordeste">Nordeste</option>
-                </select>
-            </div>
-        </section>
-
-        <!-- Grid de Marcas -->
-        <h2 class="section-title">📦 Marcas e Produtos</h2>
-        <div class="marcas-grid" id="marcasContainer">
-            <div class="loading">⏳ Carregando dados...</div>
-        </div>
-    </div>
-
-    <script>
-        // URL do arquivo JSON no GitHub (Raw) - AJUSTADA PARA SEU REPOSITÓRIO
-        const JSON_URL = 'https://raw.githubusercontent.com/marketingpavei/inteligencia/main/dados/portfolio/marcas.json';
-
-        let dadosCompletos = [];
-
-        // Carregar dados do JSON
-        async function carregarDados() {
-            try {
-                console.log('Carregando de:', JSON_URL);
-                const response = await fetch(JSON_URL);
-
-                if (!response.ok) {
-                    throw new Error(`Erro HTTP: ${response.status}`);
-                }
-
-                const data = await response.json();
-                dadosCompletos = data.marcas;
-
-                console.log('Dados carregados:', dadosCompletos);
-
-                // Preencher filtros
-                preencherFiltrosMarcas();
-
-                // Renderizar marcas
-                renderizarMarcas(dadosCompletos);
-            } catch (error) {
-                console.error('Erro ao carregar dados:', error);
-                document.getElementById('marcasContainer').innerHTML = 
-                    `<div class="error">❌ Erro ao carregar dados.<br>Verifique se o arquivo JSON existe em: <br><code>${JSON_URL}</code><br><br>Erro: ${error.message}</div>`;
-            }
+        .caracteristicas-container h3 {
+            color: #1976d2;
+            margin-bottom: 20px;
+            font-size: 18px;
         }
 
-        // Preencher dropdown de marcas
-        function preencherFiltrosMarcas() {
-            const select = document.getElementById('filtro-marca');
-            const marcas = [...new Set(dadosCompletos.map(m => m.nome))];
-
-            marcas.forEach(marca => {
-                const option = document.createElement('option');
-                option.value = marca;
-                option.textContent = marca;
-                select.appendChild(option);
-            });
+        .caracteristicas-lista {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
         }
 
-        // Renderizar marcas
-        function renderizarMarcas(marcas) {
-            const container = document.getElementById('marcasContainer');
-            container.innerHTML = '';
-
-            if (marcas.length === 0) {
-                container.innerHTML = '<div class="error">❌ Nenhum resultado encontrado.</div>';
-                return;
-            }
-
-            marcas.forEach(marca => {
-                const card = document.createElement('div');
-                card.className = 'marca-card';
-
-                let linhasHTML = '';
-                marca.linhas.forEach(linha => {
-                    const specs = `${linha.tipo}${linha.calibre ? ' - ' + linha.calibre : ''}${linha.capacidade ? ' - ' + linha.capacidade : ''}`;
-                    const sazonalidade = linha.sazonalidade ? `<div class="sazonalidade-badge">📅 ${linha.sazonalidade.pico}</div>` : '';
-
-                    linhasHTML += `
-                        <div class="linha-item">
-                            <div class="linha-nome">${linha.nome}</div>
-                            <div class="linha-tipo">${specs}</div>
-                            <div class="linha-specs">
-                                ${linha.caracteristicas.slice(0, 2).map(c => `<span>${c}</span>`).join('')}
-                            </div>
-                            ${sazonalidade}
-                        </div>
-                    `;
-                });
-
-                card.innerHTML = `
-                    <img src="${marca.logo}" alt="${marca.nome}" class="marca-logo" onerror="this.src='https://via.placeholder.com/300x120?text=${marca.nome}'">
-                    <div class="marca-nome">${marca.nome}</div>
-                    <div class="marca-categoria">${marca.categoria.replace('-', ' ')}</div>
-                    <div class="marca-descricao">${marca.descricao}</div>
-                    <div class="marca-linhas">
-                        <h4>📋 Linhas Principais (${marca.linhas.length})</h4>
-                        ${linhasHTML}
-                    </div>
-                `;
-
-                container.appendChild(card);
-            });
+        .caracteristica-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #2196f3;
         }
 
-        // Filtrar dados
-        function aplicarFiltros() {
-            const marca = document.getElementById('filtro-marca').value;
-            const categoria = document.getElementById('filtro-categoria').value;
-            const regiao = document.getElementById('filtro-regiao').value;
-
-            let marcasFiltradas = dadosCompletos;
-
-            if (marca) {
-                marcasFiltradas = marcasFiltradas.filter(m => m.nome === marca);
-            }
-
-            if (categoria) {
-                marcasFiltradas = marcasFiltradas.filter(m => m.categoria === categoria);
-            }
-
-            if (regiao) {
-                marcasFiltradas = marcasFiltradas.filter(m => 
-                    m.linhas.some(l => l.sazonalidade && l.sazonalidade.regioes.includes(regiao))
-                );
-            }
-
-            renderizarMarcas(marcasFiltradas);
+        .caracteristica-item h4 {
+            color: #1976d2;
+            margin-bottom: 10px;
+            font-size: 14px;
+            text-transform: uppercase;
         }
 
-        // Event listeners
-        document.getElementById('filtro-marca').addEventListener('change', aplicarFiltros);
-        document.getElementById('filtro-categoria').addEventListener('change', aplicarFiltros);
-        document.getElementById('filtro-regiao').addEventListener('change', aplicarFiltros);
+        .caracteristica-item p {
+            color: #666;
+            font-size: 13px;
+            line-height: 1.6;
+        }
 
-        // Carregar ao iniciar
-        window.addEventListener('load', carregarDados);
-    </script>
-</body>
-</html>
+        /* BLOCO DE OPORTUNIDADES */
+        .oportunidades-container {
+            margin: 40px 0;
+            background: #fff3e0;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 5px solid #ff6b35;
+            display: none;
+        }
+
+        .oportunidades-container.ativo {
+            display: block;
+        }
+
+        .oportunidades-container h3 {
+            color: #e65100;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .oportunidades-lista {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .oportunidade-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #ff6b35;
+        }
+
+        .oportunidade-item h4 {
+            color: #e65100;
+            margin-bottom: 10px;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        .oportunidade-item p {
+            color: #666;
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .composicao-cesta {
+            background: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .composicao-cesta ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .composicao-cesta li {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .composicao-cesta li:before {
+            content: "✓ ";
+            color: #ff6b35;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        /* BLOCO DE PRODUTOS */
+        .produtos-container {
+            margin: 40px 0;
+            background: #f3e5f5;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 5px solid #9c27b0;
+            display: none;
+        }
+
+        .produtos-container.ativo {
+            display: block;
+        }
+
+        .produtos-container h3 {
+            color: #6a1b9a;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .filtro-produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .filtro-produtos select {
+            padding: 12px;
+            border: 2px solid #9c27b0;
+            border-radius: 8px;
+            font-size: 13px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filtro-produtos select:focus {
+
