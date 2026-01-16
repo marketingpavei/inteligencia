@@ -1,0 +1,619 @@
+{
+  "marcas": [
+    {
+      "id": "aurok",
+      "nome": "Aurok",
+      "emoji": "🔫",
+      "categoria": "Acessórios Táticos",
+      "tipo": "Marca Própria Pavei",
+      "descricao": "Marca própria Pavei - Acessórios táticos premium",
+      "linhas": [
+        {
+          "linha": "Abafadores",
+          "tipo": "Proteção Auditiva",
+          "produtos": [
+            "Abafador Sport",
+            "Abafador Eletrônico Whisper",
+            "Abafador Premium Lithium com Bluetooth"
+          ],
+          "preco_medio": "R$ 176 - R$ 880"
+        },
+        {
+          "linha": "Coldres",
+          "tipo": "Transporte de Armas",
+          "produtos": [
+            "Coldres Kydex Velados",
+            "Coldres Neoprene",
+            "Coldres com Red Dot"
+          ],
+          "compatibilidades": ["Glock", "Taurus", "S&W", "Sig Sauer"],
+          "preco_medio": "R$ 160 - R$ 400"
+        },
+        {
+          "linha": "Porta-Carregadores",
+          "tipo": "Acessórios de Cintura",
+          "produtos": [
+            "Porta-Carregador Kydex Bifilar",
+            "Porta-Carregador Monofilar",
+            "Porta-Carregador Polímero"
+          ],
+          "preco_medio": "R$ 130 - R$ 140"
+        },
+        {
+          "linha": "Miras de Fibra Óptica",
+          "tipo": "Acessórios de Pontaria",
+          "produtos": [
+            "Miras para Taurus G2C/G3C",
+            "Miras para Glock",
+            "Miras para S&W"
+          ],
+          "preco_medio": "R$ 250 - R$ 400"
+        },
+        {
+          "linha": "Chumbinhos",
+          "tipo": "Munição para Ar Comprimido",
+          "produtos": [
+            "Chumbinho Domed",
+            "Chumbinho Hollow Point",
+            "Chumbinho Slug Premium",
+            "Chumbinho Olympic Match"
+          ],
+          "calibres": ["4,5mm", "5,5mm", "6,35mm"],
+          "preco_medio": "R$ 25 - R$ 80"
+        },
+        {
+          "linha": "Sacos Estanques",
+          "tipo": "Proteção de Equipamentos",
+          "produtos": [
+            "Saco Estanque 20L",
+            "Saco Estanque 30L",
+            "Saco Estanque 40L"
+          ],
+          "preco_medio": "R$ 120 - R$ 200"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "MÉDIA-ALTA",
+        "norte": "MÉDIA",
+        "nordeste": "BAIXA"
+      }
+    },
+    {
+      "id": "olight",
+      "nome": "Olight",
+      "emoji": "💡",
+      "categoria": "Lanternas Táticas",
+      "tipo": "Marca Premium",
+      "descricao": "Lanternas táticas de alta performance para tiro, outdoor e navegação",
+      "linhas": [
+        {
+          "linha": "Lanternas de Longo Alcance",
+          "tipo": "Navegação e Busca",
+          "produtos": [
+            "Olight Seeker 4 Pro",
+            "Olight X9R Marauder",
+            "Olight Seeker 2 Pro"
+          ],
+          "alcance": "300-1000m",
+          "preco_medio": "R$ 800 - R$ 2000"
+        },
+        {
+          "linha": "Lanternas Táticas",
+          "tipo": "Tiro e Treinamento",
+          "produtos": [
+            "Olight Warrior 3S",
+            "Olight Baldr Mini",
+            "Olight Baldr Pro"
+          ],
+          "preco_medio": "R$ 400 - R$ 900"
+        },
+        {
+          "linha": "Lanternas de Cabeça",
+          "tipo": "Mãos Livres",
+          "produtos": [
+            "Olight Perun Mini Kit",
+            "Olight Perun 2",
+            "Olight H16F"
+          ],
+          "preco_medio": "R$ 300 - R$ 600"
+        },
+        {
+          "linha": "Lanternas Compactas",
+          "tipo": "Bolso",
+          "produtos": [
+            "Olight Baton 3 Pro Max",
+            "Olight S1R",
+            "Olight i3T"
+          ],
+          "preco_medio": "R$ 150 - R$ 400"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "MÉDIA-ALTA",
+        "norte": "MUITO ALTA",
+        "nordeste": "MÉDIA"
+      }
+    },
+    {
+      "id": "hawapi",
+      "nome": "Hawapi",
+      "emoji": "⛺",
+      "categoria": "Equipamentos de Camping",
+      "tipo": "Marca Premium",
+      "descricao": "Barracas, colchões, sacos de dormir e acessórios de camping de alta qualidade",
+      "linhas": [
+        {
+          "linha": "Barracas",
+          "tipo": "Abrigo",
+          "produtos": [
+            "Barraca Moray (3-4 pessoas)",
+            "Barraca Wasi (2-3 pessoas)",
+            "Barraca Yunka (2 pessoas)",
+            "Barraca Ayllu (4 pessoas)"
+          ],
+          "preco_medio": "R$ 800 - R$ 2500"
+        },
+        {
+          "linha": "Colchões Infláveis",
+          "tipo": "Isolamento Térmico",
+          "produtos": [
+            "Colchão Hawapi com bomba acoplada",
+            "Colchão reforçado 150kg-200kg",
+            "Colchão isolante térmico"
+          ],
+          "preco_medio": "R$ 300 - R$ 700"
+        },
+        {
+          "linha": "Sacos de Dormir",
+          "tipo": "Isolamento",
+          "produtos": [
+            "Saco Allpa (10-15°C)",
+            "Saco Qiwa (leve)",
+            "Saco térmico (-5°C a -15°C)"
+          ],
+          "preco_medio": "R$ 400 - R$ 1200"
+        },
+        {
+          "linha": "Acessórios de Camping",
+          "tipo": "Complementos",
+          "produtos": [
+            "Cadeira Atacama",
+            "Cadeira Kaypi",
+            "Cadeira Picchu (leve)",
+            "Mesa portátil",
+            "Fogareiro portátil",
+            "Lampiões"
+          ],
+          "preco_medio": "R$ 150 - R$ 800"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "MUITO ALTA",
+        "norte": "MUITO ALTA",
+        "nordeste": "ALTA"
+      }
+    },
+    {
+      "id": "gamo",
+      "nome": "Gamo",
+      "emoji": "🎯",
+      "categoria": "Ar Comprimido",
+      "tipo": "Marca Premium - Distribuidor Exclusivo Pavei",
+      "descricao": "Carabinas PCP, pistolas CO₂ e acessórios para tiro de pressão",
+      "linhas": [
+        {
+          "linha": "Carabinas PCP",
+          "tipo": "Ar Comprimido",
+          "produtos": [
+            "Gamo Big Cat",
+            "Gamo CFX Royal",
+            "Gamo Whisper Fusion",
+            "Gamo Hunter Extreme"
+          ],
+          "potencia": "16-30 joules",
+          "preco_medio": "R$ 2000 - R$ 5000"
+        },
+        {
+          "linha": "Pistolas CO₂",
+          "tipo": "Ar Comprimido",
+          "produtos": [
+            "Gamo PT-80",
+            "Gamo PT-85 Blowback",
+            "Gamo P-900"
+          ],
+          "preco_medio": "R$ 800 - R$ 1500"
+        },
+        {
+          "linha": "Chumbinhos Gamo",
+          "tipo": "Munição",
+          "produtos": [
+            "Gamo Match Classic",
+            "Gamo Hollow Point",
+            "Gamo Pro Hunter",
+            "Gamo Lethal"
+          ],
+          "preco_medio": "R$ 30 - R$ 100"
+        },
+        {
+          "linha": "Acessórios",
+          "tipo": "Complementos",
+          "produtos": [
+            "Bombas manuais",
+            "Cilindros CO₂",
+            "Lunetas VectorOptics",
+            "Alvos e coletores"
+          ],
+          "preco_medio": "R$ 100 - R$ 1000"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MÉDIA-ALTA",
+        "sudeste": "MÉDIA-ALTA",
+        "centro-oeste": "MÉDIA",
+        "norte": "BAIXA-MÉDIA",
+        "nordeste": "BAIXA-MÉDIA"
+      }
+    },
+    {
+      "id": "taurus",
+      "nome": "Taurus",
+      "emoji": "🔫",
+      "categoria": "Armas de Fogo",
+      "tipo": "Fabricante",
+      "descricao": "Pistolas e revólveres para tiro esportivo, tático e defesa pessoal",
+      "linhas": [
+        {
+          "linha": "Pistolas 9mm",
+          "tipo": "Armas de Fogo",
+          "produtos": [
+            "Taurus G2C",
+            "Taurus G3C",
+            "Taurus TH9",
+            "Taurus TH9C"
+          ],
+          "preco_medio": "R$ 1800 - R$ 2500"
+        },
+        {
+          "linha": "Pistolas .40 S&W",
+          "tipo": "Armas de Fogo",
+          "produtos": [
+            "Taurus G2C .40",
+            "Taurus G3C .40",
+            "Taurus TH40"
+          ],
+          "preco_medio": "R$ 1900 - R$ 2600"
+        },
+        {
+          "linha": "Pistolas Compactas",
+          "tipo": "Armas de Fogo",
+          "produtos": [
+            "Taurus GX4 Carry",
+            "Taurus TX22",
+            "Taurus TH380"
+          ],
+          "preco_medio": "R$ 1500 - R$ 2200"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "ALTA",
+        "norte": "MÉDIA",
+        "nordeste": "MÉDIA"
+      }
+    },
+    {
+      "id": "cbc",
+      "nome": "CBC",
+      "emoji": "💣",
+      "categoria": "Munições",
+      "tipo": "Fabricante",
+      "descricao": "Munições para pistolas, revólveres e rifles",
+      "linhas": [
+        {
+          "linha": "Munições 9mm",
+          "tipo": "Pistola",
+          "produtos": [
+            "CBC 9mm Luger 115GR",
+            "CBC 9mm Target",
+            "CBC 9mm Subsônico"
+          ],
+          "preco_medio": "R$ 1,50 - R$ 2,50 por unidade"
+        },
+        {
+          "linha": "Munições .40 S&W",
+          "tipo": "Pistola",
+          "produtos": [
+            "CBC .40 S&W 180GR",
+            "CBC .40 S&W Target"
+          ],
+          "preco_medio": "R$ 1,80 - R$ 2,80 por unidade"
+        },
+        {
+          "linha": "Munições .22 LR",
+          "tipo": "Rifle",
+          "produtos": [
+            "CBC .22 LR Target",
+            "CBC .22 LR Hunter",
+            "CBC .22 LR Subsônico"
+          ],
+          "preco_medio": "R$ 0,50 - R$ 1,00 por unidade"
+        },
+        {
+          "linha": "Munições .38 SPL",
+          "tipo": "Revólver",
+          "produtos": [
+            "CBC .38 SPL 158GR"
+          ],
+          "preco_medio": "R$ 1,20 - R$ 1,80 por unidade"
+        },
+        {
+          "linha": "Munições .380 Auto",
+          "tipo": "Pistola",
+          "produtos": [
+            "CBC .380 Auto 95GR",
+            "CBC .380 Auto 85GR"
+          ],
+          "preco_medio": "R$ 1,50 - R$ 2,20 por unidade"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "ALTA",
+        "norte": "MÉDIA",
+        "nordeste": "MÉDIA"
+      }
+    },
+    {
+      "id": "hatsan",
+      "nome": "Hatsan",
+      "emoji": "🦌",
+      "categoria": "Espingardas",
+      "tipo": "Fabricante",
+      "descricao": "Espingardas para caça e tiro esportivo",
+      "linhas": [
+        {
+          "linha": "Espingardas de Caça",
+          "tipo": "Caça",
+          "produtos": [
+            "Hatsan Escort",
+            "Hatsan Viper",
+            "Hatsan Suprema"
+          ],
+          "calibre": "12, 20, .410",
+          "preco_medio": "R$ 3000 - R$ 6000"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "ALTA",
+        "centro-oeste": "MÉDIA",
+        "norte": "BAIXA",
+        "nordeste": "BAIXA"
+      }
+    },
+    {
+      "id": "browning",
+      "nome": "Browning",
+      "emoji": "🎯",
+      "categoria": "Equipamentos de Caça e Tiro",
+      "tipo": "Fabricante",
+      "descricao": "Espingardas, coletes, facas e acessórios para caça e tiro esportivo",
+      "linhas": [
+        {
+          "linha": "Espingardas",
+          "tipo": "Caça e Tiro",
+          "produtos": [
+            "Browning BLR",
+            "Browning BAR",
+            "Browning Maxus"
+          ],
+          "preco_medio": "R$ 4000 - R$ 8000"
+        },
+        {
+          "linha": "Coletes de Caça",
+          "tipo": "Vestuário",
+          "produtos": [
+            "Colete Pro Browning",
+            "Colete Elite Browning",
+            "Colete Sporter Browning"
+          ],
+          "preco_medio": "R$ 600 - R$ 1200"
+        },
+        {
+          "linha": "Facas e Acessórios",
+          "tipo": "Ferramentas",
+          "produtos": [
+            "Faca Prohunter",
+            "Faca Primal Gut Tool",
+            "Faca Long Haul Folding"
+          ],
+          "preco_medio": "R$ 200 - R$ 600"
+        },
+        {
+          "linha": "Óculos e Luvas",
+          "tipo": "Proteção",
+          "produtos": [
+            "Óculos On-Point",
+            "Óculos Proshooter",
+            "Luva Mitten Proshooter"
+          ],
+          "preco_medio": "R$ 200 - R$ 400"
+        },
+        {
+          "linha": "Cases e Mochilas",
+          "tipo": "Transporte",
+          "produtos": [
+            "Case Browning Espingarda",
+            "Duffle Bag Browning 40L",
+            "Duffle Bag Browning 60L"
+          ],
+          "preco_medio": "R$ 800 - R$ 1500"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "ALTA",
+        "centro-oeste": "MÉDIA",
+        "norte": "BAIXA",
+        "nordeste": "BAIXA"
+      }
+    },
+    {
+      "id": "muela",
+      "nome": "Muela",
+      "emoji": "🔪",
+      "categoria": "Facas",
+      "tipo": "Fabricante",
+      "descricao": "Facas táticas e de caça de alta qualidade",
+      "linhas": [
+        {
+          "linha": "Facas de Caça",
+          "tipo": "Caça",
+          "produtos": [
+            "Faca Muela Evisceração",
+            "Faca Muela Desossa",
+            "Faca Muela Utilidade"
+          ],
+          "material": "Aço inox resistente à corrosão",
+          "preco_medio": "R$ 300 - R$ 800"
+        },
+        {
+          "linha": "Facas Táticas",
+          "tipo": "Tático",
+          "produtos": [
+            "Faca Muela Combate",
+            "Faca Muela Sobrevivência",
+            "Faca Muela Dobrável"
+          ],
+          "preco_medio": "R$ 250 - R$ 600"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "MUITO ALTA",
+        "sudeste": "ALTA",
+        "centro-oeste": "MÉDIA-ALTA",
+        "norte": "MÉDIA",
+        "nordeste": "BAIXA"
+      }
+    },
+    {
+      "id": "thermos",
+      "nome": "Thermos",
+      "emoji": "☕",
+      "categoria": "Equipamentos Térmicos",
+      "tipo": "Fabricante",
+      "descricao": "Garrafas térmicas e copos para manutenção de temperatura em expedições",
+      "linhas": [
+        {
+          "linha": "Garrafas Térmicas",
+          "tipo": "Isolamento Térmico",
+          "produtos": [
+            "Thermos Makalu (grande capacidade)",
+            "Thermos King (médio)",
+            "Thermos Compact (pequeno)"
+          ],
+          "preco_medio": "R$ 200 - R$ 600"
+        },
+        {
+          "linha": "Copos Térmicos",
+          "tipo": "Bebidas",
+          "produtos": [
+            "Copo Thermos com tampa",
+            "Copo Thermos dobrável"
+          ],
+          "preco_medio": "R$ 80 - R$ 200"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "ALTA",
+        "sudeste": "ALTA",
+        "centro-oeste": "MÉDIA-ALTA",
+        "norte": "MUITO ALTA",
+        "nordeste": "MÉDIA"
+      }
+    },
+    {
+      "id": "vectoroptics",
+      "nome": "VectorOptics",
+      "emoji": "🔭",
+      "categoria": "Óptica",
+      "tipo": "Fabricante",
+      "descricao": "Lunetas, miras e acessórios ópticos para tiro de precisão",
+      "linhas": [
+        {
+          "linha": "Lunetas",
+          "tipo": "Óptica",
+          "produtos": [
+            "VectorOptics Forester 3-15x50",
+            "VectorOptics Hugo 4-16x44",
+            "VectorOptics Sentinel"
+          ],
+          "preco_medio": "R$ 1000 - R$ 3000"
+        },
+        {
+          "linha": "Miras Red Dot",
+          "tipo": "Pontaria",
+          "produtos": [
+            "VectorOptics Frenzy",
+            "VectorOptics Maverick",
+            "VectorOptics Scythe"
+          ],
+          "preco_medio": "R$ 600 - R$ 1500"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "MÉDIA",
+        "norte": "BAIXA",
+        "nordeste": "BAIXA"
+      }
+    },
+    {
+      "id": "guerini",
+      "nome": "Guerini",
+      "emoji": "🎯",
+      "categoria": "Espingardas",
+      "tipo": "Fabricante",
+      "descricao": "Espingardas para trap, skeet e tiro esportivo",
+      "linhas": [
+        {
+          "linha": "Espingardas Trap",
+          "tipo": "Tiro Esportivo",
+          "produtos": [
+            "Guerini Invictus",
+            "Guerini Maxum",
+            "Guerini Summit"
+          ],
+          "calibre": "12",
+          "preco_medio": "R$ 8000 - R$ 15000"
+        },
+        {
+          "linha": "Espingardas Skeet",
+          "tipo": "Tiro Esportivo",
+          "produtos": [
+            "Guerini Invictus Skeet",
+            "Guerini Maxum Skeet"
+          ],
+          "calibre": "12",
+          "preco_medio": "R$ 7000 - R$ 12000"
+        }
+      ],
+      "demanda_por_regiao": {
+        "sul": "ALTA",
+        "sudeste": "MUITO ALTA",
+        "centro-oeste": "BAIXA",
+        "norte": "BAIXA",
+        "nordeste": "BAIXA"
+      }
+    }
+  ]
+}
