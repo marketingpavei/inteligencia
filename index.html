@@ -15,20 +15,19 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
             color: #333;
-            overflow-x: hidden;
+            min-height: 100vh;
         }
 
-        /* HEADER COM LOGO */
         header {
-            background: rgba(0, 0, 0, 0.9);
-            padding: 20px;
+            background: rgba(0, 0, 0, 0.95);
+            padding: 30px 20px;
             text-align: center;
             border-bottom: 3px solid #ff6b35;
         }
 
         header h1 {
             color: #ff6b35;
-            font-size: 28px;
+            font-size: 32px;
             margin-bottom: 10px;
         }
 
@@ -37,10 +36,9 @@
             font-size: 14px;
         }
 
-        /* BOTÕES FLUTUANTES */
         .floating-buttons {
             position: fixed;
-            top: 100px;
+            top: 150px;
             right: 20px;
             display: flex;
             flex-direction: column;
@@ -49,16 +47,17 @@
         }
 
         .btn-float {
-            padding: 12px 20px;
+            padding: 12px 16px;
             border: none;
             border-radius: 8px;
             cursor: pointer;
             font-weight: bold;
-            font-size: 13px;
+            font-size: 12px;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            white-space: nowrap;
         }
 
         .btn-float.ativo {
@@ -77,15 +76,13 @@
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
         }
 
-        /* CONTAINER PRINCIPAL */
         .container {
             max-width: 1200px;
             margin: 40px auto;
             padding: 0 20px;
         }
 
-        /* SEÇÃO DE DADOS GERAIS */
-        .secao-dados-gerais {
+        .secao {
             background: white;
             padding: 40px;
             border-radius: 12px;
@@ -94,65 +91,47 @@
             display: none;
         }
 
-        .secao-dados-gerais.ativo {
+        .secao.ativo {
             display: block;
+            animation: fadeIn 0.5s ease;
         }
 
-        .secao-dados-gerais h2 {
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .secao h2 {
             color: #ff6b35;
             margin-bottom: 20px;
             font-size: 24px;
         }
 
-        .secao-dados-gerais p {
-            line-height: 1.8;
+        .secao h3 {
+            color: #1976d2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .secao p {
             color: #666;
+            line-height: 1.8;
             margin-bottom: 15px;
         }
 
-        /* SEÇÃO DE REGIÃO */
-        .secao-regiao {
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-            display: none;
-        }
-
-        .secao-regiao.ativo {
-            display: block;
-        }
-
-        .secao-regiao h2 {
-            color: #ff6b35;
-            margin-bottom: 10px;
-            font-size: 24px;
-        }
-
-        .secao-regiao .descricao-regiao {
-            color: #666;
-            margin-bottom: 30px;
-            line-height: 1.8;
-        }
-
-        /* CALENDÁRIO - MAPA DE CALOR */
+        /* CALENDÁRIO */
         .calendario-container {
-            margin: 40px 0;
+            margin: 30px 0;
             background: #f9f9f9;
             padding: 30px;
             border-radius: 12px;
             border-left: 5px solid #ff6b35;
         }
 
-        .calendario-container h3 {
-            color: #333;
-            margin-bottom: 20px;
-            font-size: 18px;
-        }
-
         .calendario-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
             gap: 10px;
         }
 
@@ -202,102 +181,66 @@
 
         .mes-card-mes {
             font-weight: bold;
-            font-size: 14px;
+            font-size: 13px;
             margin-bottom: 5px;
         }
 
         .mes-card-demanda {
-            font-size: 12px;
+            font-size: 11px;
             opacity: 0.9;
         }
 
-        /* CARACTERÍSTICAS DA SAZONALIDADE */
-        .caracteristicas-container {
-            margin: 40px 0;
-            background: #f0f7ff;
-            padding: 30px;
-            border-radius: 12px;
-            border-left: 5px solid #2196f3;
-            display: none;
-        }
-
-        .caracteristicas-container.ativo {
-            display: block;
-        }
-
-        .caracteristicas-container h3 {
-            color: #1976d2;
-            margin-bottom: 20px;
-            font-size: 18px;
-        }
-
-        .caracteristicas-lista {
+        /* CARACTERÍSTICAS */
+        .caracteristicas-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
+            margin: 20px 0;
         }
 
-        .caracteristica-item {
-            background: white;
+        .card {
+            background: #f0f7ff;
             padding: 20px;
             border-radius: 8px;
             border-left: 4px solid #2196f3;
         }
 
-        .caracteristica-item h4 {
+        .card h4 {
             color: #1976d2;
             margin-bottom: 10px;
             font-size: 14px;
             text-transform: uppercase;
         }
 
-        .caracteristica-item p {
+        .card p {
             color: #666;
             font-size: 13px;
             line-height: 1.6;
         }
 
-        /* BLOCO DE OPORTUNIDADES */
-        .oportunidades-container {
-            margin: 40px 0;
-            background: #fff3e0;
-            padding: 30px;
-            border-radius: 12px;
-            border-left: 5px solid #ff6b35;
-            display: none;
-        }
-
-        .oportunidades-container.ativo {
-            display: block;
-        }
-
-        .oportunidades-container h3 {
-            color: #e65100;
-            margin-bottom: 20px;
-            font-size: 18px;
-        }
-
-        .oportunidades-lista {
+        /* OPORTUNIDADES */
+        .oportunidades-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
+            margin: 20px 0;
         }
 
-        .oportunidade-item {
-            background: white;
+        .oportunidade-card {
+            background: #fff3e0;
             padding: 20px;
             border-radius: 8px;
             border-left: 4px solid #ff6b35;
         }
 
-        .oportunidade-item h4 {
+        .oportunidade-card h4 {
             color: #e65100;
             margin-bottom: 10px;
             font-size: 14px;
             text-transform: uppercase;
         }
 
-        .oportunidade-item p {
+        .oportunidade-card p {
             color: #666;
             font-size: 13px;
             line-height: 1.6;
@@ -309,7 +252,6 @@
             padding: 10px;
             border-radius: 5px;
             font-size: 12px;
-            color: #333;
         }
 
         .composicao-cesta ul {
@@ -329,42 +271,302 @@
             margin-right: 5px;
         }
 
-        /* BLOCO DE PRODUTOS */
-        .produtos-container {
-            margin: 40px 0;
-            background: #f3e5f5;
-            padding: 30px;
-            border-radius: 12px;
-            border-left: 5px solid #9c27b0;
-            display: none;
+        /* LOADING */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
         }
 
-        .produtos-container.ativo {
-            display: block;
-        }
-
-        .produtos-container h3 {
-            color: #6a1b9a;
-            margin-bottom: 20px;
-            font-size: 18px;
-        }
-
-        .filtro-produtos {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-
-        .filtro-produtos select {
-            padding: 12px;
-            border: 2px solid #9c27b0;
+        .error {
+            background: #ffebee;
+            color: #c62828;
+            padding: 20px;
             border-radius: 8px;
-            font-size: 13px;
-            background: white;
-            cursor: pointer;
-            transition: all 0.3s ease;
+            border-left: 4px solid #c62828;
         }
 
-        .filtro-produtos select:focus {
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            margin-top: 60px;
+        }
 
+        /* MICRORREGIÕES */
+        .microrregioes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .microrregiao-card {
+            background: #f3e5f5;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #9c27b0;
+        }
+
+        .microrregiao-card h4 {
+            color: #6a1b9a;
+            margin-bottom: 10px;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        .microrregiao-card p {
+            color: #666;
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 5px;
+        }
+
+        .microrregiao-card .cidades {
+            background: white;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎯 Pavei Tactical & Outdoor</h1>
+        <p>Inteligência de Mercado - Sazonalidades e Oportunidades por Região</p>
+    </header>
+
+    <div class="floating-buttons" id="botoesFlutantes"></div>
+
+    <div class="container">
+        <div id="secaoDadosGerais" class="secao ativo">
+            <h2>📊 Dados Gerais</h2>
+            <p>Bem-vindo ao sistema de inteligência de mercado da Pavei Tactical & Outdoor.</p>
+            <p>Selecione uma região nos botões flutuantes para visualizar sazonalidades, características e oportunidades comerciais.</p>
+        </div>
+
+        <div id="secaoRegiao" class="secao"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Pavei Tactical & Outdoor - Inteligência de Mercado</p>
+    </footer>
+
+    <script>
+        const REGIOES = ['sul', 'sudeste', 'centro-oeste', 'norte', 'nordeste'];
+        let dadosRegioes = {};
+        let regioAtual = null;
+
+        // Carregar dados das regiões - CAMINHO CORRIGIDO
+        async function carregarDados() {
+            try {
+                for (const regiao of REGIOES) {
+                    const caminhoArquivo = `dados/dados/regioes/${regiao}.json`;
+                    console.log(`Carregando: ${caminhoArquivo}`);
+
+                    const response = await fetch(caminhoArquivo);
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status} ao carregar ${regiao}.json`);
+                    }
+                    dadosRegioes[regiao] = await response.json();
+                    console.log(`✓ ${regiao}.json carregado com sucesso`);
+                }
+                criarBotoes();
+            } catch (error) {
+                console.error('Erro ao carregar dados:', error);
+                document.getElementById('secaoRegiao').innerHTML = 
+                    `<div class="error">❌ Erro ao carregar dados: ${error.message}<br><br>Verifique se os arquivos estão em: <code>dados/dados/regioes/</code></div>`;
+            }
+        }
+
+        // Criar botões flutuantes
+        function criarBotoes() {
+            const container = document.getElementById('botoesFlutantes');
+            container.innerHTML = '';
+
+            // Botão Dados Gerais
+            const btnGeral = document.createElement('button');
+            btnGeral.className = 'btn-float ativo';
+            btnGeral.textContent = '📊 Dados Gerais';
+            btnGeral.onclick = () => mostrarDadosGerais();
+            container.appendChild(btnGeral);
+
+            // Botões de regiões
+            REGIOES.forEach(regiao => {
+                const btn = document.createElement('button');
+                btn.className = 'btn-float inativo';
+                btn.textContent = regiao.charAt(0).toUpperCase() + regiao.slice(1);
+                btn.id = `btn-${regiao}`;
+                btn.onclick = () => mostrarRegiao(regiao);
+                container.appendChild(btn);
+            });
+        }
+
+        // Mostrar dados gerais
+        function mostrarDadosGerais() {
+            document.getElementById('secaoDadosGerais').classList.add('ativo');
+            document.getElementById('secaoRegiao').classList.remove('ativo');
+            atualizarBotoes(null);
+            regioAtual = null;
+        }
+
+        // Mostrar região
+        function mostrarRegiao(regiao) {
+            const dados = dadosRegioes[regiao];
+            if (!dados) {
+                console.error(`Dados da região ${regiao} não encontrados`);
+                return;
+            }
+
+            regioAtual = regiao;
+            document.getElementById('secaoDadosGerais').classList.remove('ativo');
+            document.getElementById('secaoRegiao').classList.add('ativo');
+            atualizarBotoes(regiao);
+
+            // Renderizar conteúdo
+            let html = `
+                <h2>📍 Região ${dados.regiao} ${dados.emoji}</h2>
+                <p><strong>Estados:</strong> ${dados.estados.join(', ')}</p>
+                <p>${dados.perfil.descricao}</p>
+
+                <h3>📅 Calendário de Sazonalidades</h3>
+                <div class="calendario-container">
+                    <div class="calendario-grid" id="calendarioGrid"></div>
+                </div>
+
+                <h3>🎯 Características Principais</h3>
+                <div class="caracteristicas-grid" id="caracteristicasGrid"></div>
+
+                <h3>💰 Oportunidades Comerciais</h3>
+                <div class="oportunidades-grid" id="oportunidadesGrid"></div>
+            `;
+
+            // Adicionar microrregiões se existirem
+            if (dados.microrregioes && dados.microrregioes.length > 0) {
+                html += `
+                    <h3>🗺️ Microrregiões</h3>
+                    <div class="microrregioes-grid" id="microrrregioesGrid"></div>
+                `;
+            }
+
+            document.getElementById('secaoRegiao').innerHTML = html;
+
+            // Preencher calendário
+            preencherCalendario(dados);
+
+            // Preencher características
+            preencherCaracteristicas(dados);
+
+            // Preencher oportunidades
+            preencherOportunidades(dados);
+
+            // Preencher microrregiões
+            if (dados.microrregioes && dados.microrregioes.length > 0) {
+                preencherMicrorregioes(dados);
+            }
+        }
+
+        // Preencher calendário
+        function preencherCalendario(dados) {
+            const grid = document.getElementById('calendarioGrid');
+            grid.innerHTML = '';
+
+            const meses = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
+
+            Object.keys(dados.calendario_anual).forEach((mesKey, index) => {
+                const mesData = dados.calendario_anual[mesKey];
+                const demandaNormalizada = mesData.demanda_geral.toLowerCase().replace(/[- ]/g, '-');
+
+                const card = document.createElement('div');
+                card.className = `mes-card ${demandaNormalizada}`;
+                card.innerHTML = `
+                    <div class="mes-card-mes">${meses[index]}</div>
+                    <div class="mes-card-demanda">${mesData.demanda_geral}</div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Preencher características
+        function preencherCaracteristicas(dados) {
+            const grid = document.getElementById('caracteristicasGrid');
+            grid.innerHTML = '';
+
+            dados.perfil.caracteristicas_principais.forEach(carac => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `<p>${carac}</p>`;
+                grid.appendChild(card);
+            });
+        }
+
+        // Preencher oportunidades
+        function preencherOportunidades(dados) {
+            const grid = document.getElementById('oportunidadesGrid');
+            grid.innerHTML = '';
+
+            Object.keys(dados.oportunidades_comerciais).forEach(key => {
+                const oport = dados.oportunidades_comerciais[key];
+                const card = document.createElement('div');
+                card.className = 'oportunidade-card';
+                card.innerHTML = `
+                    <h4>${key.replace(/_/g, ' ')}</h4>
+                    <p><strong>Período:</strong> ${oport.periodo}</p>
+                    <p><strong>Demanda:</strong> ${oport.demanda}</p>
+                    <div class="composicao-cesta">
+                        <strong>Produtos Prioritários:</strong>
+                        <ul>
+                            ${oport.produtos_prioritarios.map(p => `<li>${p}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <p style="margin-top: 10px; font-size: 12px;"><strong>Valor médio:</strong> ${oport.valor_medio_transacao}</p>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Preencher microrregiões
+        function preencherMicrorregioes(dados) {
+            const grid = document.getElementById('microrrregioesGrid');
+            if (!grid) return;
+
+            grid.innerHTML = '';
+
+            dados.microrregioes.forEach(micro => {
+                const card = document.createElement('div');
+                card.className = 'microrregiao-card';
+                card.innerHTML = `
+                    <h4>${micro.nome}</h4>
+                    <p><strong>Intensidade:</strong> ${micro.intensidade}</p>
+                    <p><strong>População:</strong> ${micro.populacao_aprox}</p>
+                    <p><strong>Atividades:</strong> ${micro.atividades_principais.join(', ')}</p>
+                    <div class="cidades">
+                        <strong>Cidades:</strong> ${micro.cidades.join(', ')}
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Atualizar botões
+        function atualizarBotoes(regiao) {
+            document.querySelectorAll('.btn-float').forEach(btn => {
+                btn.classList.remove('ativo');
+                btn.classList.add('inativo');
+            });
+
+            if (!regiao) {
+                document.querySelectorAll('.btn-float')[0].classList.add('ativo');
+                document.querySelectorAll('.btn-float')[0].classList.remove('inativo');
+            } else {
+                document.getElementById(`btn-${regiao}`).classList.add('ativo');
+                document.getElementById(`btn-${regiao}`).classList.remove('inativo');
+            }
+        }
+
+        // Inicializar
+        carregarDados();
+    </script>
+</body>
+</html>
