@@ -1,0 +1,638 @@
+{
+  "regiao": "Norte",
+  "estados": ["Amazonas", "Pará", "Rondônia", "Acre", "Roraima", "Amapá", "Tocantins"],
+  "emoji": "🌴",
+  "perfil": {
+    "descricao": "A região Norte é caracterizada por grande extensão territorial, baixa densidade demográfica e forte presença de atividades de pesca esportiva em rios amazônicos. Tiro esportivo e tático estão concentrados nas capitais (Manaus, Belém, Porto Velho, Palmas). O clima equatorial úmido com períodos de seca bem definidos (maio a outubro) favorece atividades sazonais intensas. A pesca na Amazônia é a atividade de maior relevância comercial, com demanda sazonal muito bem definida. Camping e trekking em regiões remotas também geram demanda de equipamentos especializados. O perfil do consumidor é prático, priorizando resistência à umidade, portabilidade e autonomia energética.",
+    "clima": "Tropical úmido com estação seca bem definida (mai-out)",
+    "caracteristicas_principais": [
+      "Pesca na Amazônia (atividade principal)",
+      "Tiro esportivo/tático em capitais",
+      "Camping em período de seca",
+      "Baixa densidade demográfica",
+      "Grande extensão territorial",
+      "Rios navegáveis como principal via de acesso",
+      "Umidade extrema (80-100%)",
+      "Expedições remotas de 7-15 dias"
+    ]
+  },
+  "atividades": [
+    {
+      "id": "pesca-amazonica",
+      "nome": "Pesca na Amazônia",
+      "emoji": "🎣",
+      "demanda": "MUITO ALTA",
+      "descricao": "A pesca em rios amazônicos é a atividade de maior relevância comercial na região Norte. Rios como Amazonas, Tapajós, Xingu e Rio Negro recebem expedições de pesca esportiva durante o período de vazante (junho a novembro), com pico absoluto entre julho e setembro. A pesca esportiva foca em espécies como tucunaré, pirarucu, tambaqui e pirarara, atraindo turistas nacionais e internacionais.",
+      "periodo_pico": "Jul-Set",
+      "periodo_ativo": "Jun-Nov",
+      "volume": "Muito Alto",
+      "rios_principais": [
+        "Rio Amazonas",
+        "Rio Tapajós",
+        "Rio Xingu",
+        "Rio Negro",
+        "Rio Madeira"
+      ],
+      "cidades_base": [
+        "Manaus (AM)",
+        "Belém (PA)",
+        "Santarém (PA)",
+        "Itaituba (PA)",
+        "Porto Velho (RO)"
+      ],
+      "especies": [
+        "Tucunaré",
+        "Pirarucu",
+        "Tambaqui",
+        "Pirarara"
+      ],
+      "produtos_relacionados": [
+        "Barracas Hawapi com proteção UV e ventilação",
+        "Colchões infláveis reforçados (150kg-200kg)",
+        "Sacos de dormir leves Hawapi Allpa (10-15°C)",
+        "Lanternas Olight Seeker 4 Pro e X9R Marauder",
+        "Lanternas de cabeça Olight Perun Kit",
+        "Sacos estanques Aurok (20L-40L)",
+        "Facas Muela resistentes à corrosão",
+        "Cadeiras portáteis Hawapi Atacama e Kaypi",
+        "Fogareiros portáteis 3200W",
+        "Power banks alta capacidade Aurok",
+        "Kits de limpeza para armas",
+        "Copos térmicos Thermos Makalu"
+      ],
+      "microrregioes": [
+        {
+          "nome": "Amazonas Central",
+          "cidades": ["Manaus", "Barcelos", "Novo Airão"],
+          "intensidade": "Muito Alta",
+          "especies_destaque": ["Tucunaré", "Pirarucu"]
+        },
+        {
+          "nome": "Pará Oriental",
+          "cidades": ["Belém", "Santarém"],
+          "intensidade": "Muito Alta",
+          "especies_destaque": ["Tucunaré", "Pirarara"]
+        },
+        {
+          "nome": "Tapajós",
+          "cidades": ["Itaituba"],
+          "intensidade": "Muito Alta",
+          "especies_destaque": ["Tucunaré", "Tambaqui"]
+        },
+        {
+          "nome": "Rondônia",
+          "cidades": ["Porto Velho"],
+          "intensidade": "Alta",
+          "especies_destaque": ["Tucunaré", "Pirarucu"]
+        }
+      ]
+    },
+    {
+      "id": "camping-seca",
+      "nome": "Camping em Período de Seca",
+      "emoji": "⛺",
+      "demanda": "MÉDIA-ALTA",
+      "descricao": "Entre maio e outubro (pico junho-agosto), o camping no Norte atrai aventureiros para o Jalapão (TO), Monte Roraima (RR) e serras do Acre, com ênfase em trekking e observação de fauna. A seca cria savanas acessíveis, mas com temperaturas noturnas baixas (até 10°C em altitude) e poeira intensa.",
+      "periodo_pico": "Jun-Ago",
+      "periodo_ativo": "Mai-Out",
+      "volume": "Médio-Alto",
+      "locais": [
+        "Jalapão (TO)",
+        "Monte Roraima (RR)",
+        "Serras do Acre",
+        "Parque Nacional da Amazônia",
+        "Parque Nacional do Jaú",
+        "Parque Nacional de Anavilhanas"
+      ],
+      "produtos_relacionados": [
+        "Barracas Hawapi Moray, Wasi e Yunka",
+        "Colchões infláveis com bomba acoplada",
+        "Sacos de dormir leves Hawapi Allpa (10-15°C)",
+        "Lanternas Olight Warrior 3S e Seeker 2 Pro",
+        "Lanternas de cabeça Olight para tarefas manuais",
+        "Multitools e facas Muela",
+        "Sacos estanques Aurok",
+        "Cadeiras e mesas portáteis Hawapi",
+        "Fogareiros portáteis",
+        "Lampiões Hawapi (250-400 lúmens)"
+      ]
+    },
+    {
+      "id": "tiro-pressao-pcp",
+      "nome": "Tiro de Pressão e PCP",
+      "emoji": "💨",
+      "demanda": "BAIXA-MÉDIA",
+      "descricao": "Atividade crescente em capitais (Manaus, Belém, Porto Velho), com clubes de tiro de pressão e PCP. Presente o ano todo, mas com picos em fevereiro-junho (preparação para estaduais) e agosto-novembro (competições nacionais). Demanda baixa-média devido à baixa densidade de atiradores, mas com potencial de crescimento.",
+      "periodo_pico": "Fev-Jun e Ago-Nov",
+      "periodo_ativo": "Ano todo",
+      "volume": "Baixo-Médio",
+      "cidades_principais": ["Manaus", "Belém", "Porto Velho", "Palmas"],
+      "produtos_relacionados": [
+        "Carabinas Gamo (Big Cat, CFX Royal, Whisper Fusion)",
+        "Chumbinhos Gamo (Match, Pro Hunter, Lethal)",
+        "Pistolas CO₂ Gamo (PT-80, PT-85 Blowback)",
+        "Bombas manuais de três estágios",
+        "Cilindros CO₂ 12g",
+        "Lunetas VectorOptics (Forester, Sentinel)",
+        "Alvos de papel 14x14cm",
+        "Coletores de chumbinhos Aurok",
+        "Abafadores Aurok Whisper",
+        "Kits de limpeza Aurok"
+      ]
+    },
+    {
+      "id": "ipsc-tiro-pratico",
+      "nome": "IPSC e Tiro Prático",
+      "emoji": "🎯",
+      "demanda": "BAIXA",
+      "descricao": "Atividade emergente em capitais como Manaus e Belém, com calendário de março a novembro (picos em abril-junho e agosto-outubro). Demanda baixa com potencial de crescimento.",
+      "periodo_pico": "Abr-Jun e Ago-Out",
+      "periodo_ativo": "Mar-Nov",
+      "volume": "Baixo",
+      "cidades_principais": ["Manaus", "Belém", "Palmas"],
+      "produtos_relacionados": [
+        "Pistolas Taurus (G2C, G3C)",
+        "Munições CBC (9mm, .40 S&W)",
+        "Coldres Aurok Kydex",
+        "Porta-carregadores Aurok",
+        "Abafadores Aurok Whisper",
+        "Lanternas táticas Olight (Baldr Mini, Warrior X Turbo)",
+        "Óculos de proteção",
+        "Cases de transporte",
+        "Miras de fibra óptica"
+      ]
+    },
+    {
+      "id": "caça-esportiva",
+      "nome": "Caça Esportiva",
+      "emoji": "🦆",
+      "demanda": "MÉDIA",
+      "descricao": "Caça esportiva regulamentada está presente em toda a região, com destaque para caça de patos, perdizes e outras espécies. Demanda média concentrada em períodos de seca (junho-setembro).",
+      "periodo_pico": "Jun-Set",
+      "periodo_ativo": "Mai-Out",
+      "volume": "Médio",
+      "especies": [
+        "Patos",
+        "Perdizes",
+        "Jacus",
+        "Mutuns"
+      ],
+      "produtos_relacionados": [
+        "Espingardas (Hatsan, Browning)",
+        "Munições específicas",
+        "Facas táticas Muela",
+        "Lanternas de altíssima potência Olight",
+        "Abafadores eletrônicos Aurok",
+        "Equipamentos de camping resistentes Hawapi"
+      ]
+    },
+    {
+      "id": "treinamento-tatico",
+      "nome": "Treinamento Tático",
+      "emoji": "🔫",
+      "demanda": "BAIXA",
+      "descricao": "Ano todo, com picos em março-abril (início de cursos), julho (férias) e outubro-novembro (renovação de registros). Concentrado em Manaus e Belém, com cursos para vigilantes e guias de turismo. Demanda baixa, mas com potencial para expansão via segurança rural.",
+      "periodo_pico": "Mar-Abr, Jul, Out-Nov",
+      "periodo_ativo": "Ano todo",
+      "volume": "Baixo",
+      "cidades_principais": ["Manaus", "Belém"],
+      "produtos_relacionados": [
+        "Pistolas Taurus (G2C, G3C)",
+        "Munições CBC 9mm/.40 S&W",
+        "Coldres Aurok Kydex",
+        "Porta-carregadores Aurok",
+        "Abafadores Aurok Whisper Premium Lithium",
+        "Óculos de proteção",
+        "Cases rígidos de transporte",
+        "Lanternas táticas Olight (Baldr Mini, Warrior X Turbo)"
+      ]
+    }
+  ],
+  "calendario_anual": {
+    "janeiro": {
+      "mes": "Janeiro",
+      "numero": 1,
+      "demanda_geral": "BAIXA",
+      "atividades": [
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "baixo",
+          "descricao": "Atividade indoor em clubes"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de equipamentos",
+        "Kits de limpeza para armas",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Aurok", "Gamo"]
+    },
+    "fevereiro": {
+      "mes": "Fevereiro",
+      "numero": 2,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "medio",
+          "descricao": "Preparação para estaduais"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "baixo",
+          "descricao": "Preparação para temporada"
+        }
+      ],
+      "oportunidades": [
+        "Preparação de equipamentos",
+        "Aquisição de munições",
+        "Carabinas PCP"
+      ],
+      "marcas_destaque": ["Gamo", "VectorOptics", "CBC"]
+    },
+    "marco": {
+      "mes": "Março",
+      "numero": 3,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Início oficial da temporada"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "medio",
+          "descricao": "Pico de matrículas"
+        }
+      ],
+      "oportunidades": [
+        "Compra de munições",
+        "Coldres e acessórios de competição",
+        "Abafadores eletrônicos"
+      ],
+      "marcas_destaque": ["Taurus", "CBC", "Aurok", "Olight"]
+    },
+    "abril": {
+      "mes": "Abril",
+      "numero": 4,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Etapas estaduais"
+        }
+      ],
+      "oportunidades": [
+        "Munições em volume",
+        "Acessórios de competição"
+      ],
+      "marcas_destaque": ["CBC", "Aurok", "Taurus"]
+    },
+    "maio": {
+      "mes": "Maio",
+      "numero": 5,
+      "demanda_geral": "MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-amazonica",
+          "nome": "Pesca Amazônica",
+          "nivel": "medio",
+          "descricao": "Início da temporada de vazante"
+        },
+        {
+          "atividade_id": "camping-seca",
+          "nome": "Camping de Seca",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        },
+        {
+          "atividade_id": "caça-esportiva",
+          "nome": "Caça Esportiva",
+          "nivel": "medio",
+          "descricao": "Início da temporada"
+        }
+      ],
+      "oportunidades": [
+        "Equipamentos de pesca (pré-temporada)",
+        "Camping de seca",
+        "Caça esportiva",
+        "Barracas Hawapi",
+        "Lanternas Olight"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Aurok", "Thermos"]
+    },
+    "junho": {
+      "mes": "Junho",
+      "numero": 6,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-amazonica",
+          "nome": "Pesca Amazônica",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO - Início da vazante"
+        },
+        {
+          "atividade_id": "camping-seca",
+          "nome": "Camping de Seca",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "caça-esportiva",
+          "nome": "Caça Esportiva",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        }
+      ],
+      "oportunidades": [
+        "Pesca amazônica (pico absoluto)",
+        "Camping de seca (pico absoluto)",
+        "Barracas Hawapi com proteção UV",
+        "Colchões infláveis reforçados",
+        "Sacos de dormir leves",
+        "Lanternas Olight resistentes à água (Seeker 4 Pro, X9R Marauder)",
+        "Sacos estanques Aurok (20L-40L)",
+        "Fogareiros portáteis",
+        "Copos térmicos Thermos Makalu"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Thermos", "Aurok", "Muela"]
+    },
+    "julho": {
+      "mes": "Julho",
+      "numero": 7,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-amazonica",
+          "nome": "Pesca Amazônica",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO - Vazante em pico"
+        },
+        {
+          "atividade_id": "camping-seca",
+          "nome": "Camping de Seca",
+          "nivel": "muito_alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "medio",
+          "descricao": "Férias escolares"
+        }
+      ],
+      "oportunidades": [
+        "Pesca amazônica (pico máximo)",
+        "Camping de seca",
+        "Equipamentos de camping premium",
+        "Treinamento tático",
+        "Lanternas de longo alcance (navegação noturna)",
+        "Sacos estanques para eletrônicos"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Thermos", "Aurok", "Taurus"]
+    },
+    "agosto": {
+      "mes": "Agosto",
+      "numero": 8,
+      "demanda_geral": "MUITO ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-amazonica",
+          "nome": "Pesca Amazônica",
+          "nivel": "muito_alto",
+          "descricao": "PICO MÁXIMO"
+        },
+        {
+          "atividade_id": "camping-seca",
+          "nome": "Camping de Seca",
+          "nivel": "alto",
+          "descricao": "Continuidade"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "medio",
+          "descricao": "Competições nacionais"
+        }
+      ],
+      "oportunidades": [
+        "Pesca amazônica (pico final)",
+        "Camping de seca",
+        "Competições de tiro de pressão",
+        "Equipamentos de camping",
+        "Acessórios táticos"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "Aurok", "Gamo", "VectorOptics"]
+    },
+    "setembro": {
+      "mes": "Setembro",
+      "numero": 9,
+      "demanda_geral": "ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-amazonica",
+          "nome": "Pesca Amazônica",
+          "nivel": "alto",
+          "descricao": "Continuidade (reta final)"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Etapas nacionais"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos nacionais"
+        }
+      ],
+      "oportunidades": [
+        "Pesca amazônica",
+        "Competições de tiro",
+        "Munições em volume"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "CBC", "Aurok"]
+    },
+    "outubro": {
+      "mes": "Outubro",
+      "numero": 10,
+      "demanda_geral": "MÉDIA-ALTA",
+      "atividades": [
+        {
+          "atividade_id": "pesca-amazonica",
+          "nome": "Pesca Amazônica",
+          "nivel": "medio",
+          "descricao": "Fim da temporada de vazante"
+        },
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "medio",
+          "descricao": "Reta final de competições"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "alto",
+          "descricao": "Campeonatos nacionais"
+        },
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "medio",
+          "descricao": "Preparação para fim de ano"
+        }
+      ],
+      "oportunidades": [
+        "Pesca amazônica (reta final)",
+        "Competições de tiro",
+        "Preparação para compras de fim de ano"
+      ],
+      "marcas_destaque": ["Hawapi", "Olight", "CBC", "Aurok", "Taurus"]
+    },
+    "novembro": {
+      "mes": "Novembro",
+      "numero": 11,
+      "demanda_geral": "BAIXA-MÉDIA",
+      "atividades": [
+        {
+          "atividade_id": "ipsc-tiro-pratico",
+          "nome": "IPSC",
+          "nivel": "baixo",
+          "descricao": "Fechamento da temporada"
+        },
+        {
+          "atividade_id": "tiro-pressao-pcp",
+          "nome": "Tiro de Pressão",
+          "nivel": "medio",
+          "descricao": "Continuidade"
+        }
+      ],
+      "oportunidades": [
+        "Manutenção de equipamentos",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Aurok", "Olight"]
+    },
+    "dezembro": {
+      "mes": "Dezembro",
+      "numero": 12,
+      "demanda_geral": "BAIXA",
+      "atividades": [
+        {
+          "atividade_id": "treinamento-tatico",
+          "nome": "Treinamento Tático",
+          "nivel": "baixo",
+          "descricao": "Preparação para próxima temporada"
+        }
+      ],
+      "oportunidades": [
+        "Compras de Natal (facas premium, lanternas)",
+        "Preparação para próxima temporada"
+      ],
+      "marcas_destaque": ["Olight", "Thermos", "Muela"]
+    }
+  },
+  "microrregioes": [
+    {
+      "id": "barcelos-novo-airão",
+      "nome": "Barcelos e Novo Airão",
+      "cidades": ["Barcelos", "Novo Airão"],
+      "estado": "AM",
+      "atividades_principais": ["Pesca Amazônica"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~100k",
+      "descricao": "Pesca de tucunaré em expedições fluviais remotas; alta demanda por lanternas de longo alcance (Olight Seeker) e sacos estanques (Aurok 30L/40L) para proteção de eletrônicos em barcos."
+    },
+    {
+      "id": "manaus",
+      "nome": "Manaus",
+      "cidades": ["Manaus"],
+      "estado": "AM",
+      "atividades_principais": ["Pesca Amazônica", "Tiro de Pressão", "IPSC"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~2.2M",
+      "descricao": "Centro urbano com acesso a expedições amazônicas; demanda por tiro de pressão e tático em clubes urbanos."
+    },
+    {
+      "id": "altamira-santarém",
+      "nome": "Altamira e Santarém",
+      "cidades": ["Altamira", "Santarém"],
+      "estado": "PA",
+      "atividades_principais": ["Pesca Amazônica"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~500k",
+      "descricao": "Pesca amazônica em rios como Xingu e Tapajós; foco em fogareiros portáteis (Hawapi) e colchões infláveis com bomba (para conforto em acampamentos ribeirinhos)."
+    },
+    {
+      "id": "belém",
+      "nome": "Belém",
+      "cidades": ["Belém"],
+      "estado": "PA",
+      "atividades_principais": ["Pesca Amazônica", "Tiro de Pressão", "IPSC"],
+      "intensidade": "Muito Alta",
+      "populacao_aprox": "~1.5M",
+      "descricao": "Centro urbano com acesso a expedições amazônicas; demanda por tiro de pressão, IPSC e treinamento tático."
+    },
+    {
+      "id": "porto-velho",
+      "nome": "Porto Velho",
+      "cidades": ["Porto Velho"],
+      "estado": "RO",
+      "atividades_principais": ["Pesca Amazônica", "Tiro de Pressão"],
+      "intensidade": "Alta",
+      "populacao_aprox": "~500k",
+      "descricao": "Acesso à Amazônia via rio Madeira; demanda por power banks (Aurok HWP00031) e lanternas de cabeça (Olight Perun) para navegação noturna."
+    },
+    {
+      "id": "jalapão",
+      "nome": "Jalapão",
+      "cidades": ["Mateiros", "Ponte Alta do Tocantins"],
+      "estado": "TO",
+      "atividades_principais": ["Camping de Seca", "Trekking"],
+      "intensidade": "Média-Alta",
+      "populacao_aprox": "~50k",
+      "descricao": "Camping e trekking em savanas secas; ênfase em barracas resistentes (Hawapi Moray) e multitools (Muela) para setup em terrenos áridos."
+    },
+    {
+      "id": "monte-roraima",
+      "nome": "Monte Roraima",
+      "cidades": ["Boa Vista"],
+      "estado": "RR",
+      "atividades_principais": ["Camping de Altitude", "Trekking"],
+      "intensidade": "Média-Alta",
+      "populacao_aprox": "~350k",
+      "descricao": "Camping de altitude com trilhas; demanda por sacos de dormir leves (Hawapi Allpa) e lanternas de alta autonomia (Olight Warrior 3S) para noites frias em altitude."
+    },
+    {
+      "id": "palmas",
+      "nome": "Palmas",
+      "cidades": ["Palmas"],
+      "estado": "TO",
+      "atividades_principais": ["IPSC", "Tiro de Pressão", "Treinamento Tático"],
+      "intensidade": "Média",
+      "populacao_aprox": "~300k",
+      "descricao": "Centro urbano com clubes de tiro; demanda por tiro de pressão, IPSC e treinamento tático."
+    }
+  ],
+  "oportunidades_comerciais": {
+    "pesca_amazonica": {
+      "periodo": "Jun-Nov (pico Jul-Set)",
+      "demanda": "MUITO ALTA",
+      "produtos_prioritarios": [
+        "Barracas Hawapi (Moray, Ayllu) com proteção UV",
+        "Colchões infláveis reforçados (150kg-200kg)",
+        "Sacos de dormir leves Hawapi Allpa (10-15°C)",
+        "Lanternas Olight Seeker 4 Pro
+
